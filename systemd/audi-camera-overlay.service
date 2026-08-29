@@ -1,0 +1,15 @@
+[Unit]
+Description=Audi Dynamic Camera Overlay Daemon & Webserver
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/audi-rns-overlay
+ExecStartPre=/bin/sh -c 'nohup python3 -m http.server 44408 --directory /home/pi/audi-rns-overlay/html >/dev/null 2>&1 &'
+ExecStart=/usr/bin/python3 /home/pi/audi-rns-overlay/can_daemon.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

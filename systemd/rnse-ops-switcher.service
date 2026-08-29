@@ -1,0 +1,15 @@
+[Unit]
+Description=RNS-E OPS Video Switcher via CAN
+After=network.target
+Wants=sys-subsystem-net-devices-can0.device
+After=sys-subsystem-net-devices-can0.device
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/usr/bin/python3 /home/pi/rnse_ops_switcher.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

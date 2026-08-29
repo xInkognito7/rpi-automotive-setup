@@ -1,0 +1,6 @@
+[Match]
+Name=can0
+
+[CAN]
+BitRate=100K
+RestartSec=100ms

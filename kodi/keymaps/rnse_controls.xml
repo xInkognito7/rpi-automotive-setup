@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <keyboard>
+      <!-- Drehregler: Taste 1 = Up / Taste 2 = Down -->
+      <one>Up</one>
+      <two>Down</two>
+
+      <!-- Dreh-Druck-Knopf = Auswählen -->
+      <return>Select</return>
+
+      <!-- Return-Taste = Zurück -->
+      <escape>Back</escape>
+
+      <!-- Steuerkreuz links: Up = PageUp / Down = PageDown -->
+      <up>PageUp</up>
+      <down>PageDown</down>
+
+      <!-- Track-Tasten global = Links / Rechts -->
+      <left>Left</left>
+      <right>Right</right>
+      <prev_track>Left</prev_track>
+      <next_track>Right</next_track>
+    </keyboard>
+  </global>
+
+  <!-- EXKLUSIV IM HOMESCREEN -->
+  <Home>
+    <keyboard>
+      <!-- Taste unten links öffnet Settings -->
+      <down>ActivateWindow(Settings)</down>
+      
+      <!-- Track-Tasten & Pfeile links/rechts schalten aktiv durch -->
+      <left>PlayerControl(Previous)</left>
+      <right>PlayerControl(Next)</right>
+      <prev_track>PlayerControl(Previous)</prev_track>
+      <next_track>PlayerControl(Next)</next_track>
+    </keyboard>
+  </Home>
+
+  <!-- Vollbild Video -->
+  <FullScreenVideo>
+    <keyboard>
+      <return>PlayPause</return>
+      <escape>Back</escape>
+      <up>Info</up>
+      <down>ActivateWindow(PVROSDChannels)</down>
+      <left>StepBack</left>
+      <right>StepForward</right>
+      <prev_track>StepBack</prev_track>
+      <next_track>StepForward</next_track>
+    </keyboard>
+  </FullScreenVideo>
+
+  <!-- Vollbild Live-TV -->
+  <FullScreenLiveTV>
+    <keyboard>
+      <return>PlayPause</return>
+      <escape>Back</escape>
+      <up>Info</up>
+      <down>ActivateWindow(PVROSDChannels)</down>
+      <left>ChannelDown</left>
+      <right>ChannelUp</right>
+      <prev_track>ChannelDown</prev_track>
+      <next_track>ChannelUp</next_track>
+    </keyboard>
+  </FullScreenLiveTV>
+</keymap>

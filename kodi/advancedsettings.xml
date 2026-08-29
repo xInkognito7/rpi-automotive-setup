@@ -1,0 +1,19 @@
+<advancedsettings>
+  <video>
+    <syncrefreshrate>0</syncrefreshrate>
+    <adjustrefreshrate>
+      <mode>0</mode>
+    </adjustrefreshrate>
+  </video>
+  <videoplayer>
+    <usedisplayasclock>false</usedisplayasclock>
+    <streamsilence>1</streamsilence>
+    <resamplequality>0</resamplequality>
+  </videoplayer>
+  <audio>
+    <headroom>0</headroom>
+    <defaultplayer>default</defaultplayer>
+    <defaultvolume>100</defaultvolume>
+    <mute>false</mute>
+  </audio>
+</advancedsettings>

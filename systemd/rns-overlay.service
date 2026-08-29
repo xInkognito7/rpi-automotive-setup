@@ -1,0 +1,14 @@
+[Unit]
+Description=Audi RNS-E Overlay Webserver & CAN Daemon
+After=network.target network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/audi-rns-overlay
+ExecStart=/bin/bash -c "python3 -m http.server 44408 --directory /home/pi/audi-rns-overlay/html & python3 /home/pi/audi-rns-overlay/can_daemon.py"
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

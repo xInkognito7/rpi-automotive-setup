@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+venv/
+.venv*/
+*.tar.gz
+*.bak*

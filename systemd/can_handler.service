@@ -1,0 +1,16 @@
+[Unit]
+Description=RNS-E CAN-Bus Handler
+BindsTo=sys-subsystem-net-devices-can0.device
+After=sys-subsystem-net-devices-can0.device
+
+[Service]
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/rns-e_can
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /home/pi/rns-e_can/can_handler.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,3 @@
+<favourites>
+    <favourite name="Install from repository">ActivateWindow(10040,&quot;addons://repos/&quot;,return)</favourite>
+</favourites>

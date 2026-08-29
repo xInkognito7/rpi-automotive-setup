@@ -1,0 +1,16 @@
+[Unit]
+Description=Setup CAN Bus can0 with 12MHz Timing
+Before=can_handler.service dis_service.service
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/sbin/ip link set can0 down
+ExecStart=/sbin/ip link set can0 type can bitrate 100000 sample-point 0.750 restart-ms 100
+ExecStart=/sbin/ip link set can0 txqueuelen 1000
+ExecStart=/sbin/ip link set can0 up
+ExecStop=/sbin/ip link set can0 down
+
+[Install]
+WantedBy=multi-user.target

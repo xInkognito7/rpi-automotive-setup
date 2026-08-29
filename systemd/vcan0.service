@@ -1,0 +1,16 @@
+[Unit]
+Description=Virtuelles CAN Interface vcan0
+DefaultDependencies=no
+After=systemd-modules-load.service
+Before=network-pre.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStartPre=-/sbin/modprobe vcan
+ExecStart=/sbin/ip link add dev vcan0 type vcan
+ExecStartPost=/sbin/ip link set up vcan0
+ExecStop=/sbin/ip link delete dev vcan0
+
+[Install]
+WantedBy=multi-user.target

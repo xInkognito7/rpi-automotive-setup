@@ -1,0 +1,306 @@
+#!/usr/bin/env python3
+import math
+import logging
+import threading
+import os
+import gi
+import can
+
+gi.require_version("Gst", "1.0")
+gi.require_version("GstVideo", "1.0")
+from gi.repository import Gst, GLib
+import cairo
+
+# ==============================================================================
+# KONFIGURATION & FAHRZEUGGEOMETRIE (AUDI A4 B7 AVANT)
+# ==============================================================================
+CAN_INTERFACE   = "vcan0"  # Am Schreibtisch "vcan0", im Auto auf "can0" setzen
+USE_DUMMY_VIDEO = True     # True = Testbild, False = /dev/video0 (Grabber)
+BG_IMAGE_PATH   = "/home/pi/audi-rns-overlay/camera_bg.jpg"
+CAR_PNG_PATH    = "/home/pi/audi-rns-overlay/car_top.png"
+
+# B7 Kinematik-Parameter
+WHEELBASE_M     = 2.648    # Radstand in Metern
+TRACK_WIDTH_M   = 1.520    # Spurbreite Hinterachse in Metern
+STEERING_RATIO  = 16.3     # Lenkuebersetzung (Lenkrad zu Rad)
+
+# Kamera-Montage & Optik (Tieferlegung & Griffleisten-Kamera)
+CAM_HEIGHT_M    = 0.82     # Hoehe ueber Boden in Metern
+CAM_PITCH_DEG   = 42.0     # Neigungswinkel nach unten
+FOCAL_PX        = 360.0    # Brennweiten-Skalierung fuer Standard 120-130 Grad H-FOV
+DISP_W, DISP_H  = 800, 480 # Aufloesung RNS-E
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+
+# ==============================================================================
+# OVERLAY KLASSE
+# ==============================================================================
+class AudiMmiOverlay:
+    def __init__(self):
+        Gst.init(None)
+        self.steering_angle = 0.0
+        # 8 Sensoren: [Front LA, Front ML, Front MR, Front RA, Heck LA, Heck ML, Heck MR, Heck RA]
+        self.pdc_distances = [0.0] * 8
+        self.pipeline = None
+        self.is_running = False
+        self.loop = None
+        self.thread = None
+
+        self.car_surface = None
+        if os.path.exists(CAR_PNG_PATH):
+            try:
+                self.car_surface = cairo.ImageSurface.create_from_png(CAR_PNG_PATH)
+                logging.info(f"Fahrzeuggrafik geladen: {CAR_PNG_PATH}")
+            except Exception as e:
+                logging.error(f"Fehler beim Laden von {CAR_PNG_PATH}: {e}")
+
+    def project_ground_to_screen(self, x_ground, y_ground):
+        """
+        Projiziert Bodenkoordinaten (x=Rechts, y=Rueckwaerts-Distanz) in Bildschirm-Pixel (u, v).
+        """
+        if y_ground <= 0.15:
+            return None
+        
+        pitch_rad = math.radians(CAM_PITCH_DEG)
+        cos_p = math.cos(pitch_rad)
+        sin_p = math.sin(pitch_rad)
+
+        # 3D Kamerakoordinaten
+        x_cam = x_ground
+        y_cam = -CAM_HEIGHT_M * cos_p + y_ground * sin_p
+        z_cam =  CAM_HEIGHT_M * sin_p + y_ground * cos_p
+
+        if z_cam <= 0.05:
+            return None
+
+        # Projektion auf Display (800x480)
+        u = (DISP_W / 2.0) + (x_cam / z_cam) * FOCAL_PX
+        v = (DISP_H / 2.0) + (y_cam / z_cam) * FOCAL_PX
+        return (u, v)
+
+    def draw_dynamic_tracks(self, context):
+        """
+        Berechnet und zeichnet die exakten dynamischen Reifenspuren nach Ackermann.
+        """
+        steer_rad = math.radians(self.steering_angle / STEERING_RATIO)
+        half_track = TRACK_WIDTH_M / 2.0
+        steps = 30
+        max_dist_m = 6.0
+
+        pts_left = []
+        pts_right = []
+
+        if abs(steer_rad) < 0.005:  # Geradeaus
+            for i in range(steps + 1):
+                y_g = 0.3 + (i / steps) * (max_dist_m - 0.3)
+                pl = self.project_ground_to_screen(-half_track, y_g)
+                pr = self.project_ground_to_screen(half_track, y_g)
+                if pl: pts_left.append(pl)
+                if pr: pts_right.append(pr)
+        else:  # Kurvenfahrt (Ackermann-Kreisbogen der Hinterachse)
+            R = WHEELBASE_M / math.tan(steer_rad)
+            R_left = R - half_track
+            R_right = R + half_track
+
+            for i in range(steps + 1):
+                y_g = 0.3 + (i / steps) * (max_dist_m - 0.3)
+                psi = y_g / R
+                x_l = R_left * math.cos(psi) - R
+                y_l = abs(R_left * math.sin(psi))
+                x_r = R_right * math.cos(psi) - R
+                y_r = abs(R_right * math.sin(psi))
+
+                pl = self.project_ground_to_screen(x_l, y_l)
+                pr = self.project_ground_to_screen(x_r, y_r)
+                if pl: pts_left.append(pl)
+                if pr: pts_right.append(pr)
+
+        # 1. Spurbahn zeichnen (Orange Fuehrungsschienen)
+        context.set_line_width(3.5)
+        context.set_source_rgba(1.0, 0.55, 0.0, 0.95)
+
+        for pts in [pts_left, pts_right]:
+            if len(pts) > 1:
+                context.move_to(pts[0][0], pts[0][1])
+                for pt in pts[1:]:
+                    context.line_to(pt[0], pt[1])
+                context.stroke()
+
+        # 2. Querlinien fuer 1.0m, 2.0m und 3.0m Distanz
+        context.set_line_width(2.0)
+        context.set_source_rgba(0.0, 0.65, 1.0, 0.85)
+        for dist in [1.0, 2.0, 3.0]:
+            idx = int((dist - 0.3) / (max_dist_m - 0.3) * steps)
+            if idx < len(pts_left) and idx < len(pts_right):
+                context.move_to(pts_left[idx][0], pts_left[idx][1])
+                context.line_to(pts_right[idx][0], pts_right[idx][1])
+                context.stroke()
+
+    def draw_pdc_zone(self, context, car_cx, car_cy, is_rear=False):
+        y_center = car_cy + (50.0 if is_rear else -50.0)
+        r_in = 41.0
+
+        if is_rear:
+            ang_splits = [math.radians(a) for a in [160.0, 125.0, 90.0, 55.0, 20.0]]
+            offset_idx = 4
+            r_out_list = [65.0, 82.0, 82.0, 65.0]
+        else:
+            ang_splits = [math.radians(a) for a in [200.0, 235.0, 270.0, 305.0, 340.0]]
+            offset_idx = 0
+            r_out_list = [65.0, 82.0, 82.0, 65.0]
+
+        for s in range(4):
+            dist = self.pdc_distances[offset_idx + s]
+            if dist <= 0.02:
+                continue
+
+            # Farbübergang Weiß -> Orange -> Signalrot
+            if dist < 0.4:
+                r, g, b, a = 0.9, 0.9, 0.9, 0.55
+            elif dist < 0.75:
+                r, g, b, a = 1.0, 0.55, 0.0, 0.85
+            else:
+                r, g, b, a = 0.95, 0.05, 0.05, 0.95
+
+            a_start, a_end = ang_splits[s], ang_splits[s + 1]
+            r_out = r_in + (r_out_list[s] - r_in) * dist
+
+            context.new_path()
+            context.arc(car_cx, y_center, r_in, a_start, a_end)
+            context.arc_negative(car_cx, y_center, r_out, a_end, a_start)
+            context.close_path()
+
+            context.set_source_rgba(r, g, b, a)
+            context.fill_preserve()
+            context.set_source_rgba(0.1, 0.1, 0.1, 0.5)
+            context.set_line_width(1.0)
+            context.stroke()
+
+    def draw_overlay(self, overlay, context, timestamp, duration):
+        # 1. Dynamische Schienen & Distanzleiter zeichnen
+        self.draw_dynamic_tracks(context)
+
+        # 2. Fahrzeug-Draufsicht & PDC (Links oben)
+        car_cx, car_cy = 135.0, 235.0
+        self.draw_pdc_zone(context, car_cx, car_cy, is_rear=False)
+        self.draw_pdc_zone(context, car_cx, car_cy, is_rear=True)
+
+        if self.car_surface:
+            cw, ch = self.car_surface.get_width(), self.car_surface.get_height()
+            context.save()
+            context.translate(car_cx - cw / 2.0, car_cy - ch / 2.0)
+            context.set_source_surface(self.car_surface, 0, 0)
+            context.paint()
+            context.restore()
+
+        # 3. Audi OEM Warnleiste unten
+        context.set_source_rgba(0.0, 0.0, 0.0, 0.65)
+        context.rectangle(0, 448, 800, 32)
+        context.fill()
+
+        context.select_font_face("Sans", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+        context.set_font_size(15.0)
+        context.set_source_rgb(1.0, 0.3, 0.1)
+        context.move_to(270, 470)
+        context.show_text("/!\\ Fahrweg kontrollieren!")
+
+def start(self):
+        if self.is_running:
+            return
+        logging.info("GStreamer Pipeline startet...")
+
+        # 1. Quelle definieren (mit erzwungener Skalierung auf 800x480)
+        if USE_DUMMY_VIDEO:
+            # Nutze filesrc fuer das Bild, zwinge es auf 800x480
+            src_pipeline = (
+                f"filesrc location={BG_IMAGE_PATH} ! jpegdec ! "
+                f"videoconvert ! videoscale ! "
+                f"video/x-raw,width=800,height=480,pixel-aspect-ratio=1/1,framerate=30/1"
+            )
+        else:
+            # Nutze v4l2src, zwinge es auf 800x480
+            src_pipeline = (
+                f"v4l2src device=/dev/video0 ! "
+                f"videoconvert ! videoscale ! "
+                f"video/x-raw,width=800,height=480,pixel-aspect-ratio=1/1,framerate=30/1"
+            )
+
+        # 2. Pipeline linear zusammenbauen (Quelle -> Overlay -> Sink)
+        # WICHTIG: Kein autovideosink, das oft falsche Overlays erzeugt
+        pipeline_str = f"{src_pipeline} ! cairooverlay name=cairo ! videoconvert ! ximagesink sync=false"
+        
+        self.pipeline = Gst.parse_launch(pipeline_str)
+    def stop(self):
+        if not self.is_running:
+            return
+        logging.info("GStreamer Pipeline stoppt...")
+        if self.pipeline:
+            self.pipeline.set_state(Gst.State.NULL)
+            self.pipeline = None
+        if self.loop:
+            self.loop.quit()
+            self.loop = None
+        self.is_running = False
+
+# ==============================================================================
+# CAN LISTENER THREAD
+# ==============================================================================
+def can_listener(overlay):
+    logging.info(f"CAN-Listener wartet auf {CAN_INTERFACE}...")
+    try:
+        bus = can.interface.Bus(channel=CAN_INTERFACE, bustype="socketcan")
+    except Exception as e:
+        logging.error(f"Konnte CAN-Bus nicht oeffnen: {e}")
+        return
+
+    current_gear = 0
+
+    for msg in bus:
+        # 1. Rueckwaertsgang (ID 0x351)
+        if msg.arbitration_id == 0x351 and len(msg.data) >= 1:
+            val = msg.data[0]
+            is_rev = val in [0x02, 0x52, 0x01, ord('R')]
+            if is_rev and current_gear != 1:
+                current_gear = 1
+                overlay.start()
+            elif not is_rev and current_gear != 0:
+                current_gear = 0
+                overlay.stop()
+
+        # 2. Lenkwinkel (ID 0x0C0)
+        elif msg.arbitration_id == 0x0C0 and len(msg.data) >= 3:
+            raw = msg.data[1] | (msg.data[2] << 8)
+            if raw > 32767:
+                raw -= 65536
+            overlay.steering_angle = raw * 0.04375
+
+        # 3. PDC Distanzen (ID 0x6DA - PCBBC)
+        elif msg.arbitration_id == 0x6DA and len(msg.data) >= 6:
+            # Heck (0x93) -> Sensoren 4..7
+            if msg.data[1] == 0x93:
+                for i in range(4):
+                    cm = msg.data[2 + i]
+                    if cm == 0xFF:
+                        overlay.pdc_distances[4 + i] = 0.0
+                    else:
+                        overlay.pdc_distances[4 + i] = max(0.0, min(1.0, (150.0 - cm) / 125.0))
+            # Front (0x92) -> Sensoren 0..3
+            elif msg.data[1] == 0x92:
+                for i in range(4):
+                    cm = msg.data[2 + i]
+                    if cm == 0xFF:
+                        overlay.pdc_distances[i] = 0.0
+                    else:
+                        overlay.pdc_distances[i] = max(0.0, min(1.0, (120.0 - cm) / 95.0))
+
+if __name__ == "__main__":
+    overlay = AudiMmiOverlay()
+    listener_thread = threading.Thread(target=can_listener, args=(overlay,))
+    listener_thread.daemon = True
+    listener_thread.start()
+
+    try:
+        while True:
+            threading.Event().wait(1.0)
+    except KeyboardInterrupt:
+        overlay.stop()

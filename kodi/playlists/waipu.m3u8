@@ -1,0 +1,469 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Das Erste" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/500px-Das_Erste_2014.svg.png" tvg-id="DasErste.de" tvg-chno="1" tvg-country="DE" group-title="Germany",Das Erste Ⓖ
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
+#EXTINF:-1 tvg-name="ZDF" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/500px-ZDF_logo.svg.png" tvg-id="ZDF.de" tvg-chno="2" tvg-country="DE" group-title="Germany",ZDF Ⓖ
+http://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
+#EXTINF:-1 tvg-name="3sat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/500px-3sat_2019.svg.png" tvg-id="3sat.de" tvg-chno="3" tvg-country="DE" group-title="Germany",3sat Ⓖ
+https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
+#EXTINF:-1 tvg-name="ARD Alpha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/500px-ARD_alpha.svg.png" tvg-id="ARDalpha.de" tvg-chno="4" tvg-country="DE" group-title="Germany",ARD Alpha Ⓖ
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
+#EXTINF:-1 tvg-name="ARTE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/250px-Arte_Logo_2017.svg.png" tvg-id="ARTEDeutsch.de" tvg-chno="5" tvg-country="DE" group-title="Germany",ARTE Ⓖ
+https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
+#EXTINF:-1 tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" tvg-id="DeluxeMusic.de" tvg-chno="6" tvg-country="DE" group-title="Germany",DELUXE MUSIC
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
+#EXTINF:-1 tvg-name="DELUXE MUSIC DANCE BY KONTOR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/500px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" tvg-id="DeluxeMusicDanceByKontor.de" tvg-chno="7" tvg-country="DE" group-title="Germany",DELUXE MUSIC DANCE BY KONTOR
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
+#EXTINF:-1 tvg-name="DELUXE MUSIC RAP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/500px-Deluxe_Rap_Logo_2023.svg.png" tvg-id="DeLuxeMusicRap.de" tvg-chno="8" tvg-country="DE" group-title="Germany",DELUXE MUSIC RAP
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
+#EXTINF:-1 tvg-name="SCHLAGER DELUXE" tvg-logo="https://i.imgur.com/YPpgUOg.png" tvg-id="SchlagerDeluxe.de" tvg-chno="9" tvg-country="DE" group-title="Germany",SCHLAGER DELUXE
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/26658/26658_264_live.m3u8
+#EXTINF:-1 tvg-name="Euronews Deutsch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/500px-Euronews_2022.svg.png" tvg-id="EuronewsGerman.fr" tvg-chno="10" tvg-country="DE" group-title="Germany",Euronews Deutsch Ⓨ
+https://www.youtube.com/euronewsde/live
+#EXTINF:-1 tvg-name="KiKa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/500px-Kika_2012.svg.png" tvg-id="KIKA.de" tvg-chno="11" tvg-country="DE" group-title="Germany",KiKa Ⓖ
+https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8
+#EXTINF:-1 tvg-name="ONE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/500px-One_2022.svg.png" tvg-id="One.de" tvg-chno="14" tvg-country="DE" group-title="Germany",ONE Ⓖ
+https://mcdn-one.ard.de/ardone/hls/master.m3u8
+#EXTINF:-1 tvg-name="Phoenix" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/500px-Phoenix-logo-2018.svg.png" tvg-id="Phoenix.de" tvg-chno="15" tvg-country="DE" group-title="Germany",Phoenix Ⓖ
+https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8
+#EXTINF:-1 tvg-name="Tagesschau24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/500px-Tagesschau24-2012.svg.png" tvg-id="tagesschau24.de" tvg-chno="16" tvg-country="DE" group-title="Germany",Tagesschau24
+https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-name="Welt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Welt_TV_Logo_2016.svg/500px-Welt_TV_Logo_2016.svg.png" tvg-id="Welt.de" tvg-chno="17" tvg-country="DE" group-title="Germany",Welt
+https://w-live2weltcms.akamaized.net/hls/live/2041019/Welt-LivePGM/index.m3u8
+#EXTINF:-1 tvg-name="ZDFinfo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/500px-ZDFinfo_2011.svg.png" tvg-id="ZDFinfo.de" tvg-chno="18" tvg-country="DE" group-title="Germany",ZDFinfo Ⓖ
+https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8
+#EXTINF:-1 tvg-name="ZDFneo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ZDFneo2017_Logo.svg/500px-ZDFneo2017_Logo.svg.png" tvg-id="ZDFneo.de" tvg-chno="19" tvg-country="DE" group-title="Germany",ZDFneo Ⓖ
+https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
+#EXTINF:-1 tvg-name="BR Nord" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenNord.de" tvg-chno="1" tvg-country="DE" group-title="Germany",BR Nord Ⓖ
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
+#EXTINF:-1 tvg-name="BR Süd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenSud.de" tvg-chno="2" tvg-country="DE" group-title="Germany",BR Süd Ⓖ
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
+#EXTINF:-1 tvg-name="HR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/500px-HR-Fernsehen_Logo_2023.svg.png" tvg-id="HRFernsehen.de" tvg-chno="3" tvg-country="DE" group-title="Germany",HR Ⓖ
+https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8
+#EXTINF:-1 tvg-name="MDR Sachsen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png" tvg-id="MDRFernsehenSachsen.de" tvg-chno="4" tvg-country="DE" group-title="Germany",MDR Sachsen Ⓖ
+https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8
+#EXTINF:-1 tvg-name="MDR Sachsen-Anhalt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png" tvg-id="MDRFernsehenSachsenAnhalt.de" tvg-chno="5" tvg-country="DE" group-title="Germany",MDR Sachsen-Anhalt Ⓖ
+https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master.m3u8
+#EXTINF:-1 tvg-name="MDR Thüringen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png" tvg-id="MDRFernsehenThuringen.de" tvg-chno="6" tvg-country="DE" group-title="Germany",MDR Thüringen Ⓖ
+https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8
+#EXTINF:-1 tvg-name="NDR Hamburg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="NDRFernsehenHamburg.de" tvg-chno="7" tvg-country="DE" group-title="Germany",NDR Hamburg Ⓖ
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+#EXTINF:-1 tvg-name="NDR Mecklenburg-Vorpommern" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="NDRFernsehenMecklenburgVorpommern.de" tvg-chno="8" tvg-country="DE" group-title="Germany",NDR Mecklenburg-Vorpommern Ⓖ
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
+#EXTINF:-1 tvg-name="NDR Niedersachsen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="NDRFernsehenNiedersachsen.de" tvg-chno="9" tvg-country="DE" group-title="Germany",NDR Niedersachsen Ⓖ
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
+#EXTINF:-1 tvg-name="NDR Schleswig-Holstein" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="NDRFernsehenSchleswigHolstein.de" tvg-chno="10" tvg-country="DE" group-title="Germany",NDR Schleswig-Holstein Ⓖ
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8
+#EXTINF:-1 tvg-name="Radio Bremen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_Radio_Bremen.svg/500px-Logo_Radio_Bremen.svg.png" tvg-id="RadioBremenFernsehen.de" tvg-chno="11" tvg-country="DE" group-title="Germany",Radio Bremen Ⓖ
+https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8
+#EXTINF:-1 tvg-name="RBB Berlin" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/500px-Rbb_Fernsehen_Logo_2017.08.svg.png" tvg-id="RBBBerlin.de" tvg-chno="12" tvg-country="DE" group-title="Germany",RBB Berlin Ⓖ
+https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8
+#EXTINF:-1 tvg-name="RBB Brandenburg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/500px-Rbb_Fernsehen_Logo_2017.08.svg.png" tvg-id="RBBBrandenburg.de" tvg-chno="13" tvg-country="DE" group-title="Germany",RBB Brandenburg Ⓖ
+https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8
+#EXTINF:-1 tvg-name="SR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png" tvg-id="SRFernsehen.de" tvg-chno="14" tvg-country="DE" group-title="Germany",SR Ⓖ
+https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
+#EXTINF:-1 tvg-name="SWR Baden-Württemberg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png" tvg-id="SWRFernsehenBadenWurttemberg.de" tvg-chno="15" tvg-country="DE" group-title="Germany",SWR Baden-Württemberg Ⓖ
+https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8
+#EXTINF:-1 tvg-name="SWR Rheinland-Pfalz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png" tvg-id="SWRFernsehenRheinlandPfalz.de" tvg-chno="16" tvg-country="DE" group-title="Germany",SWR Rheinland-Pfalz Ⓖ
+https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8
+#EXTINF:-1 tvg-name="WDR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/500px-Wdr_fernsehen_logo_2016.svg.png" tvg-id="WDR.de" tvg-chno="17" tvg-country="DE" group-title="Germany",WDR Ⓖ
+https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
+#EXTINF:-1 tvg-name="NDR International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="NDRFernsehenInternational.de" tvg-chno="1" tvg-country="DE" group-title="Germany",NDR International
+https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
+#EXTINF:-1 tvg-id="5ad9b7aae738977e2c312132" tvg-name="World Poker Tour" tvg-logo="https://images.pluto.tv/channels/5ad9b7aae738977e2c312132/colorLogoPNG.png" group-title="Sport",World Poker Tour
+plugin://plugin.video.plutotv/play/pvr/5ad9b7aae738977e2c312132
+#EXTINF:-1 tvg-id="5ad9b8551b95267e225e59c1" tvg-name="Pluto TV Explore" tvg-logo="https://images.pluto.tv/channels/5ad9b8551b95267e225e59c1/colorLogoPNG.png" group-title="Dokus + Wissen",Pluto TV Explore
+plugin://plugin.video.plutotv/play/pvr/5ad9b8551b95267e225e59c1
+#EXTINF:-1 tvg-id="5be1c3f9851dd5632e2c91b2" tvg-name="Pluto TV Nature" tvg-logo="https://images.pluto.tv/channels/5be1c3f9851dd5632e2c91b2/colorLogoPNG.png" group-title="Dokus + Wissen",Pluto TV Nature
+plugin://plugin.video.plutotv/play/pvr/5be1c3f9851dd5632e2c91b2
+#EXTINF:-1 tvg-id="5c5c3b948002db3c3e0b262e" tvg-name="Pluto TV Movies" tvg-logo="https://images.pluto.tv/channels/5c5c3b948002db3c3e0b262e/colorLogoPNG.png" group-title="Filme",Pluto TV Movies
+plugin://plugin.video.plutotv/play/pvr/5c5c3b948002db3c3e0b262e
+#EXTINF:-1 tvg-id="5caf325764025859afdd6c4d" tvg-name="MTV Pluto TV" tvg-logo="https://images.pluto.tv/channels/5caf325764025859afdd6c4d/colorLogoPNG.png" group-title="Reality",MTV Pluto TV
+plugin://plugin.video.plutotv/play/pvr/5caf325764025859afdd6c4d
+#EXTINF:-1 tvg-id="5caf330ea5068259a32320fd" tvg-name="MTV Ink Master" tvg-logo="https://images.pluto.tv/channels/5caf330ea5068259a32320fd/colorLogoPNG_1783598886471.png" group-title="Reality",MTV Ink Master
+plugin://plugin.video.plutotv/play/pvr/5caf330ea5068259a32320fd
+#EXTINF:-1 tvg-id="5cb5cfe5caf83414128f209e" tvg-name="KultKrimi" tvg-logo="https://images.pluto.tv/channels/5cb5cfe5caf83414128f209e/colorLogoPNG.png" group-title="Crime",KultKrimi
+plugin://plugin.video.plutotv/play/pvr/5cb5cfe5caf83414128f209e
+#EXTINF:-1 tvg-id="5cb5d043a461406ffe3fb2de" tvg-name="Telenovela ZDF" tvg-logo="https://images.pluto.tv/channels/5cb5d043a461406ffe3fb2de/colorLogoPNG.png" group-title="Serien-Marathon",Telenovela ZDF
+plugin://plugin.video.plutotv/play/pvr/5cb5d043a461406ffe3fb2de
+#EXTINF:-1 tvg-id="5cd149f021cb6c55e258bbe8" tvg-name="Pluto TV Sitcoms+" tvg-logo="https://images.pluto.tv/missing.png" group-title="Samsung",Pluto TV Sitcoms+
+plugin://plugin.video.plutotv/play/pvr/5cd149f021cb6c55e258bbe8
+#EXTINF:-1 tvg-id="5ce40f42ba7f7f5ea9518fe1" tvg-name="Ice Pilots" tvg-logo="https://images.pluto.tv/channels/5ce40f42ba7f7f5ea9518fe1/colorLogoPNG.png" group-title="Reality",Ice Pilots
+plugin://plugin.video.plutotv/play/pvr/5ce40f42ba7f7f5ea9518fe1
+#EXTINF:-1 tvg-id="5cffcf5686dfe15595fb3f56" tvg-name="MTV Teen Mom" tvg-logo="https://images.pluto.tv/channels/5cffcf5686dfe15595fb3f56/colorLogoPNG_1750154727513.png" group-title="Reality",MTV Teen Mom
+plugin://plugin.video.plutotv/play/pvr/5cffcf5686dfe15595fb3f56
+#EXTINF:-1 tvg-id="5d00e8adaab96b5635b2a005" tvg-name="SpongeBob Schwammkopf" tvg-logo="https://images.pluto.tv/channels/5d00e8adaab96b5635b2a005/colorLogoPNG.png" group-title="Kids",SpongeBob Schwammkopf
+plugin://plugin.video.plutotv/play/pvr/5d00e8adaab96b5635b2a005
+#EXTINF:-1 tvg-id="5d4947590ba40f75dc29c26b" tvg-name="CC Pluto TV" tvg-logo="https://images.pluto.tv/channels/5d4947590ba40f75dc29c26b/colorLogoPNG.png" group-title="Sitcoms + Comedy",CC Pluto TV
+plugin://plugin.video.plutotv/play/pvr/5d4947590ba40f75dc29c26b
+#EXTINF:-1 tvg-id="5d6792bd6be2998ad0ccce30" tvg-name="Totally Turtles" tvg-logo="https://images.pluto.tv/channels/5d6792bd6be2998ad0ccce30/colorLogoPNG.png" group-title="Kids",Totally Turtles
+plugin://plugin.video.plutotv/play/pvr/5d6792bd6be2998ad0ccce30
+#EXTINF:-1 tvg-id="5d767ab2b456c8cf265ce921" tvg-name="Pluto TV Sitcoms" tvg-logo="https://images.pluto.tv/channels/5d767ab2b456c8cf265ce921/colorLogoPNG.png" group-title="Sitcoms + Comedy",Pluto TV Sitcoms
+plugin://plugin.video.plutotv/play/pvr/5d767ab2b456c8cf265ce921
+#EXTINF:-1 tvg-id="5d767ae7b456c8cf265ce922" tvg-name="Pluto TV Animals" tvg-logo="https://images.pluto.tv/channels/5d767ae7b456c8cf265ce922/colorLogoPNG.png" group-title="Dokus + Wissen",Pluto TV Animals
+plugin://plugin.video.plutotv/play/pvr/5d767ae7b456c8cf265ce922
+#EXTINF:-1 tvg-id="5d767b1c126c65d0a307355f" tvg-name="Pluto TV History" tvg-logo="https://images.pluto.tv/channels/5d767b1c126c65d0a307355f/colorLogoPNG.png" group-title="Dokus + Wissen",Pluto TV History
+plugin://plugin.video.plutotv/play/pvr/5d767b1c126c65d0a307355f
+#EXTINF:-1 tvg-id="5d767b4889bca2ce7b73ef2e" tvg-name="Pluto TV Science" tvg-logo="https://images.pluto.tv/channels/5d767b4889bca2ce7b73ef2e/colorLogoPNG.png" group-title="Dokus + Wissen",Pluto TV Science
+plugin://plugin.video.plutotv/play/pvr/5d767b4889bca2ce7b73ef2e
+#EXTINF:-1 tvg-id="5db6a697d5f34a000934cd13" tvg-name="MTV Catfish TV Show" tvg-logo="https://images.pluto.tv/channels/5db6a697d5f34a000934cd13/colorLogoPNG.png" group-title="Reality",MTV Catfish TV Show
+plugin://plugin.video.plutotv/play/pvr/5db6a697d5f34a000934cd13
+#EXTINF:-1 tvg-id="5dc190f7bfed110009d934c3" tvg-name="Pluto TV Serie" tvg-logo="https://images.pluto.tv/channels/5dc190f7bfed110009d934c3/colorLogoPNG.png" group-title="Serien-Marathon",Pluto TV Serie
+plugin://plugin.video.plutotv/play/pvr/5dc190f7bfed110009d934c3
+#EXTINF:-1 tvg-id="5dc280c9aa218c0009724b4b" tvg-name="Pluto TV Food" tvg-logo="https://images.pluto.tv/channels/5dc280c9aa218c0009724b4b/colorLogoPNG_1769092247484.png" group-title="Dokus + Wissen",Pluto TV Food
+plugin://plugin.video.plutotv/play/pvr/5dc280c9aa218c0009724b4b
+#EXTINF:-1 tvg-id="5dc287ce3086a20009f5024c" tvg-name="Pluto TV Romance" tvg-logo="https://images.pluto.tv/channels/5dc287ce3086a20009f5024c/colorLogoPNG.png" group-title="Filme",Pluto TV Romance
+plugin://plugin.video.plutotv/play/pvr/5dc287ce3086a20009f5024c
+#EXTINF:-1 tvg-id="5ddbf866b1862a0009a0648e" tvg-name="Pluto TV Serie+" tvg-logo="https://images.pluto.tv/channels/5ddbf866b1862a0009a0648e/colorLogoPNG.png" group-title="Samsung",Pluto TV Serie+
+plugin://plugin.video.plutotv/play/pvr/5ddbf866b1862a0009a0648e
+#EXTINF:-1 tvg-id="5dde47b63585b500099f74ec" tvg-name="Pluto TV Kultfilme" tvg-logo="https://images.pluto.tv/channels/5dde47b63585b500099f74ec/colorLogoPNG.png" group-title="Filme",Pluto TV Kultfilme
+plugin://plugin.video.plutotv/play/pvr/5dde47b63585b500099f74ec
+#EXTINF:-1 tvg-id="5e7b6c60fd20c50007910bf5" tvg-name="Pluto TV Crime" tvg-logo="https://images.pluto.tv/channels/5e7b6c60fd20c50007910bf5/colorLogoPNG.png" group-title="Crime",Pluto TV Crime
+plugin://plugin.video.plutotv/play/pvr/5e7b6c60fd20c50007910bf5
+#EXTINF:-1 tvg-id="5e7cb84a172a0f0007da69e4" tvg-name="Red Bull TV" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="Live Sports",Red Bull TV
+plugin://plugin.video.plutotv/play/pvr/5e7cb84a172a0f0007da69e4
+#EXTINF:-1 tvg-id="5e8b580a233dc90007f0cb9d" tvg-name="iCarly" tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png" group-title="Kids",iCarly
+plugin://plugin.video.plutotv/play/pvr/5e8b580a233dc90007f0cb9d
+#EXTINF:-1 tvg-id="5ede448d3d50590007a4419e" tvg-name="Nickelodeon Toons" tvg-logo="https://images.pluto.tv/channels/5ede448d3d50590007a4419e/colorLogoPNG_1750753703285.png" group-title="Kids",Nickelodeon Toons
+plugin://plugin.video.plutotv/play/pvr/5ede448d3d50590007a4419e
+#EXTINF:-1 tvg-id="5ede45d077746000072be0fe" tvg-name="Auction Hunters" tvg-logo="https://images.pluto.tv/channels/5ede45d077746000072be0fe/colorLogoPNG.png" group-title="Reality",Auction Hunters
+plugin://plugin.video.plutotv/play/pvr/5ede45d077746000072be0fe
+#EXTINF:-1 tvg-id="5f0d668b872e4400073acc68" tvg-name="Nickelodeon Teen" tvg-logo="https://images.pluto.tv/channels/5f0d668b872e4400073acc68/colorLogoPNG_1750753617970.png" group-title="Kids",Nickelodeon Teen
+plugin://plugin.video.plutotv/play/pvr/5f0d668b872e4400073acc68
+#EXTINF:-1 tvg-id="5f760c3d41aa2d0007bfde19" tvg-name="Auto Motor Sport" tvg-logo="https://images.pluto.tv/channels/5f760c3d41aa2d0007bfde19/colorLogoPNG.png" group-title="Sport",Auto Motor Sport
+plugin://plugin.video.plutotv/play/pvr/5f760c3d41aa2d0007bfde19
+#EXTINF:-1 tvg-id="5f9847fd513250000728a9a5" tvg-name="MTV Ridiculousness" tvg-logo="https://images.pluto.tv/channels/5f9847fd513250000728a9a5/colorLogoPNG.png" group-title="Reality",MTV Ridiculousness
+plugin://plugin.video.plutotv/play/pvr/5f9847fd513250000728a9a5
+#EXTINF:-1 tvg-id="5f98487036af340008da1e37" tvg-name="Pluto TV Paranormal" tvg-logo="https://images.pluto.tv/channels/5f98487036af340008da1e37/colorLogoPNG.png" group-title="Horror & Paranormal",Pluto TV Paranormal
+plugin://plugin.video.plutotv/play/pvr/5f98487036af340008da1e37
+#EXTINF:-1 tvg-id="60080e8a4bf36000076a81b1" tvg-name="N24 Doku" tvg-logo="https://images.pluto.tv/channels/60080e8a4bf36000076a81b1/colorLogoPNG.png" group-title="Dokus + Wissen",N24 Doku
+plugin://plugin.video.plutotv/play/pvr/60080e8a4bf36000076a81b1
+#EXTINF:-1 tvg-id="600adbdf8c554e00072125c9" tvg-name="Avatar" tvg-logo="https://images.pluto.tv/channels/600adbdf8c554e00072125c9/colorLogoPNG.png" group-title="Kids",Avatar
+plugin://plugin.video.plutotv/play/pvr/600adbdf8c554e00072125c9
+#EXTINF:-1 tvg-id="6054a9f4bc8a5f000771504c" tvg-name="Takeshi's Castle" tvg-logo="https://images.pluto.tv/channels/6054a9f4bc8a5f000771504c/colorLogoPNG.png" group-title="Sitcoms + Comedy",Takeshi's Castle
+plugin://plugin.video.plutotv/play/pvr/6054a9f4bc8a5f000771504c
+#EXTINF:-1 tvg-id="608181d420fc8500075f612a" tvg-name="Pluto TV Anime" tvg-logo="https://images.pluto.tv/channels/608181d420fc8500075f612a/colorLogoPNG_1747395463053.png" group-title="Anime",Pluto TV Anime
+plugin://plugin.video.plutotv/play/pvr/608181d420fc8500075f612a
+#EXTINF:-1 tvg-id="60afb576053df900076fa2f0" tvg-name="Beverly Hills 90210" tvg-logo="https://images.pluto.tv/channels/60afb576053df900076fa2f0/colorLogoPNG.png" group-title="Serien-Marathon",Beverly Hills 90210
+plugin://plugin.video.plutotv/play/pvr/60afb576053df900076fa2f0
+#EXTINF:-1 tvg-id="60afbad343e3840007164348" tvg-name="Chaos City" tvg-logo="https://images.pluto.tv/channels/60afbad343e3840007164348/colorLogoPNG.png" group-title="Sitcoms + Comedy",Chaos City
+plugin://plugin.video.plutotv/play/pvr/60afbad343e3840007164348
+#EXTINF:-1 tvg-id="60c716084d842c00085f6e64" tvg-name="Comedy Central South Park" tvg-logo="https://images.pluto.tv/channels/60c716084d842c00085f6e64/colorLogoPNG_1748434979824.png" group-title="South Park",Comedy Central South Park
+plugin://plugin.video.plutotv/play/pvr/60c716084d842c00085f6e64
+#EXTINF:-1 tvg-id="60e4519e6873180007d3cddb" tvg-name="BBC Lifestyle" tvg-logo="https://images.pluto.tv/channels/60e4519e6873180007d3cddb/colorLogoPNG_1783324912745.png" group-title="Dokus + Wissen",BBC Lifestyle
+plugin://plugin.video.plutotv/play/pvr/60e4519e6873180007d3cddb
+#EXTINF:-1 tvg-id="60ed498c4248a400077c0b9d" tvg-name="Pluto TV Sci-Fi" tvg-logo="https://images.pluto.tv/channels/60ed498c4248a400077c0b9d/colorLogoPNG.png" group-title="Sci-Fi & Fantasy",Pluto TV Sci-Fi
+plugin://plugin.video.plutotv/play/pvr/60ed498c4248a400077c0b9d
+#EXTINF:-1 tvg-id="611e7f224676bf00076a4d8d" tvg-name="Cheers" tvg-logo="https://images.pluto.tv/channels/611e7f224676bf00076a4d8d/colorLogoPNG.png" group-title="Sitcoms + Comedy",Cheers
+plugin://plugin.video.plutotv/play/pvr/611e7f224676bf00076a4d8d
+#EXTINF:-1 tvg-id="61409f8d6feb30000766b675" tvg-name="Pluto TV Space" tvg-logo="https://images.pluto.tv/channels/61409f8d6feb30000766b675/colorLogoPNG.png" group-title="Dokus + Wissen",Pluto TV Space
+plugin://plugin.video.plutotv/play/pvr/61409f8d6feb30000766b675
+#EXTINF:-1 tvg-id="6152ee71bf99590007893a11" tvg-name="Pluto TV Star Trek" tvg-logo="https://images.pluto.tv/channels/6152ee71bf99590007893a11/colorLogoPNG.png" group-title="Sci-Fi & Fantasy",Pluto TV Star Trek
+plugin://plugin.video.plutotv/play/pvr/6152ee71bf99590007893a11
+#EXTINF:-1 tvg-id="615333098185f00008715a56" tvg-name="Pluto TV True Crime" tvg-logo="https://images.pluto.tv/channels/615333098185f00008715a56/colorLogoPNG.png" group-title="True Crime",Pluto TV True Crime
+plugin://plugin.video.plutotv/play/pvr/615333098185f00008715a56
+#EXTINF:-1 tvg-id="615c1e5ce3039400070a0547" tvg-name="MOVIEDOME" tvg-logo="https://images.pluto.tv/channels/615c1e5ce3039400070a0547/colorLogoPNG.png" group-title="Filme",MOVIEDOME
+plugin://plugin.video.plutotv/play/pvr/615c1e5ce3039400070a0547
+#EXTINF:-1 tvg-id="617aad99b68ef100072608cd" tvg-name="Pluto TV Mystery" tvg-logo="https://images.pluto.tv/channels/617aad99b68ef100072608cd/colorLogoPNG.png" group-title="Dokus + Wissen",Pluto TV Mystery
+plugin://plugin.video.plutotv/play/pvr/617aad99b68ef100072608cd
+#EXTINF:-1 tvg-id="61b33085897b9d000702b72e" tvg-name="Just.fishing" tvg-logo="https://images.pluto.tv/channels/61b33085897b9d000702b72e/colorLogoPNG.png" group-title="Dokus + Wissen",Just.fishing
+plugin://plugin.video.plutotv/play/pvr/61b33085897b9d000702b72e
+#EXTINF:-1 tvg-id="622f40c901d4b70007ad7609" tvg-name="Sabrina - Total verhext!" tvg-logo="https://images.pluto.tv/channels/622f40c901d4b70007ad7609/colorLogoPNG.png" group-title="Sitcoms + Comedy",Sabrina - Total verhext!
+plugin://plugin.video.plutotv/play/pvr/622f40c901d4b70007ad7609
+#EXTINF:-1 tvg-id="622f487722d9d400075f74dd" tvg-name="Ein Engel auf Erden" tvg-logo="https://images.pluto.tv/channels/622f487722d9d400075f74dd/colorLogoPNG.png" group-title="Sci-Fi & Fantasy",Ein Engel auf Erden
+plugin://plugin.video.plutotv/play/pvr/622f487722d9d400075f74dd
+#EXTINF:-1 tvg-id="622f6e1e2792150007e0b2ff" tvg-name="Alle hassen Chris" tvg-logo="https://images.pluto.tv/channels/622f6e1e2792150007e0b2ff/colorLogoPNG.png" group-title="Sitcoms + Comedy",Alle hassen Chris
+plugin://plugin.video.plutotv/play/pvr/622f6e1e2792150007e0b2ff
+#EXTINF:-1 tvg-id="622f6faf65be650007f57aab" tvg-name="Hausmeister Krause" tvg-logo="https://images.pluto.tv/channels/622f6faf65be650007f57aab/colorLogoPNG.png" group-title="Sitcoms + Comedy",Hausmeister Krause
+plugin://plugin.video.plutotv/play/pvr/622f6faf65be650007f57aab
+#EXTINF:-1 tvg-id="62441d6ded1827000763dcda" tvg-name="CBS News 24/7" tvg-logo="https://images.pluto.tv/channels/62441d6ded1827000763dcda/colorLogoPNG.png" group-title="Nachrichten",CBS News 24/7
+plugin://plugin.video.plutotv/play/pvr/62441d6ded1827000763dcda
+#EXTINF:-1 tvg-id="6270ea4345f5bc0007823048" tvg-name="Fury" tvg-logo="https://images.pluto.tv/channels/6270ea4345f5bc0007823048/colorLogoPNG.png" group-title="Western",Fury
+plugin://plugin.video.plutotv/play/pvr/6270ea4345f5bc0007823048
+#EXTINF:-1 tvg-id="62a0b2aff4cf470007e47e29" tvg-name="Fluss-Monster" tvg-logo="https://images.pluto.tv/channels/62a0b2aff4cf470007e47e29/colorLogoPNG.png" group-title="Dokus + Wissen",Fluss-Monster
+plugin://plugin.video.plutotv/play/pvr/62a0b2aff4cf470007e47e29
+#EXTINF:-1 tvg-id="62bc1784120ba80007935aaa" tvg-name="Awkward" tvg-logo="https://images.pluto.tv/channels/62bc1784120ba80007935aaa/colorLogoPNG.png" group-title="Serien-Marathon",Awkward
+plugin://plugin.video.plutotv/play/pvr/62bc1784120ba80007935aaa
+#EXTINF:-1 tvg-id="62cebd7302478b00073a6b71" tvg-name="Der Denver-Clan" tvg-logo="https://images.pluto.tv/channels/62cebd7302478b00073a6b71/colorLogoPNG.png" group-title="Serien-Marathon",Der Denver-Clan
+plugin://plugin.video.plutotv/play/pvr/62cebd7302478b00073a6b71
+#EXTINF:-1 tvg-id="62cebf042ffc6d0007c4e59a" tvg-name="Frasier" tvg-logo="https://images.pluto.tv/channels/62cebf042ffc6d0007c4e59a/colorLogoPNG.png" group-title="Sitcoms + Comedy",Frasier
+plugin://plugin.video.plutotv/play/pvr/62cebf042ffc6d0007c4e59a
+#EXTINF:-1 tvg-id="62f4f4b88157cf00075c22db" tvg-name="Pluto TV Horror" tvg-logo="https://images.pluto.tv/channels/62f4f4b88157cf00075c22db/colorLogoPNG.png" group-title="Horror & Paranormal",Pluto TV Horror
+plugin://plugin.video.plutotv/play/pvr/62f4f4b88157cf00075c22db
+#EXTINF:-1 tvg-id="630348a54c48ce00077eb6c7" tvg-name="Becker" tvg-logo="https://images.pluto.tv/channels/630348a54c48ce00077eb6c7/colorLogoPNG.png" group-title="Sitcoms + Comedy",Becker
+plugin://plugin.video.plutotv/play/pvr/630348a54c48ce00077eb6c7
+#EXTINF:-1 tvg-id="6305ca798bd95300072d2f93" tvg-name="Filmgold" tvg-logo="https://images.pluto.tv/channels/6305ca798bd95300072d2f93/colorLogoPNG.png" group-title="Filme",Filmgold
+plugin://plugin.video.plutotv/play/pvr/6305ca798bd95300072d2f93
+#EXTINF:-1 tvg-id="630dd3b2605f140007e002f5" tvg-name="Pluto TV Western" tvg-logo="https://images.pluto.tv/channels/630dd3b2605f140007e002f5/colorLogoPNG_1732030684562.png" group-title="Western",Pluto TV Western
+plugin://plugin.video.plutotv/play/pvr/630dd3b2605f140007e002f5
+#EXTINF:-1 tvg-id="634fe5afece2e60007c9d8b8" tvg-name="Mission Impossible" tvg-logo="https://images.pluto.tv/channels/634fe5afece2e60007c9d8b8/colorLogoPNG.png" group-title="Action",Mission Impossible
+plugin://plugin.video.plutotv/play/pvr/634fe5afece2e60007c9d8b8
+#EXTINF:-1 tvg-id="638f2983dcd9100008c2374d" tvg-name="Rawhide - Tausend Meilen Staub" tvg-logo="https://images.pluto.tv/channels/638f2983dcd9100008c2374d/colorLogoPNG.png" group-title="Western",Rawhide - Tausend Meilen Staub
+plugin://plugin.video.plutotv/play/pvr/638f2983dcd9100008c2374d
+#EXTINF:-1 tvg-id="638f2bc7bc363100072f02dd" tvg-name="Rauchende Colts" tvg-logo="https://images.pluto.tv/channels/638f2bc7bc363100072f02dd/colorLogoPNG.png" group-title="Western",Rauchende Colts
+plugin://plugin.video.plutotv/play/pvr/638f2bc7bc363100072f02dd
+#EXTINF:-1 tvg-id="642abea1283aa4000805bb5b" tvg-name="Täterjagd" tvg-logo="https://images.pluto.tv/channels/642abea1283aa4000805bb5b/colorLogoPNG.png" group-title="True Crime",Täterjagd
+plugin://plugin.video.plutotv/play/pvr/642abea1283aa4000805bb5b
+#EXTINF:-1 tvg-id="642ad072283aa4000806148c" tvg-name="Pluto TV Weihnachten im Sommer" tvg-logo="https://images.pluto.tv/channels/642ad072283aa4000806148c/colorLogoPNG.png" group-title="Filme",Pluto TV Weihnachten im Sommer
+plugin://plugin.video.plutotv/play/pvr/642ad072283aa4000806148c
+#EXTINF:-1 tvg-id="642ad2127ef83900085f8910" tvg-name="Mork vom Ork" tvg-logo="https://images.pluto.tv/channels/642ad2127ef83900085f8910/colorLogoPNG.png" group-title="Sci-Fi & Fantasy",Mork vom Ork
+plugin://plugin.video.plutotv/play/pvr/642ad2127ef83900085f8910
+#EXTINF:-1 tvg-id="642d4493aa2d690008f0a03f" tvg-name="Yu-Gi-Oh!" tvg-logo="https://images.pluto.tv/channels/642d4493aa2d690008f0a03f/colorLogoPNG.png" group-title="Anime",Yu-Gi-Oh!
+plugin://plugin.video.plutotv/play/pvr/642d4493aa2d690008f0a03f
+#EXTINF:-1 tvg-id="642d7e029189ce0008958af5" tvg-name="X-Factor: Das Unfassbare" tvg-logo="https://images.pluto.tv/channels/642d7e029189ce0008958af5/colorLogoPNG.png" group-title="Horror & Paranormal",X-Factor: Das Unfassbare
+plugin://plugin.video.plutotv/play/pvr/642d7e029189ce0008958af5
+#EXTINF:-1 tvg-id="644257fe7cb4b100081ed874" tvg-name="Hell's Kitchen" tvg-logo="https://images.pluto.tv/channels/644257fe7cb4b100081ed874/colorLogoPNG.png" group-title="Reality",Hell's Kitchen
+plugin://plugin.video.plutotv/play/pvr/644257fe7cb4b100081ed874
+#EXTINF:-1 tvg-id="6447dea7e94c380008dba94c" tvg-name="Germany Shore" tvg-logo="https://images.pluto.tv/channels/6447dea7e94c380008dba94c/colorLogoPNG.png" group-title="Reality",Germany Shore
+plugin://plugin.video.plutotv/play/pvr/6447dea7e94c380008dba94c
+#EXTINF:-1 tvg-id="64526a145a0cd50008632bfa" tvg-name="Pluto TV heiße Nächte" tvg-logo="https://images.pluto.tv/channels/64526a145a0cd50008632bfa/colorLogoPNG.png" group-title="Sinnliche Fantasien",Pluto TV heiße Nächte
+plugin://plugin.video.plutotv/play/pvr/64526a145a0cd50008632bfa
+#EXTINF:-1 tvg-id="645a0ddfe1979c00086d83ff" tvg-name="Red Shoe Diaries" tvg-logo="https://images.pluto.tv/channels/645a0ddfe1979c00086d83ff/colorLogoPNG.png" group-title="Sinnliche Fantasien",Red Shoe Diaries
+plugin://plugin.video.plutotv/play/pvr/645a0ddfe1979c00086d83ff
+#EXTINF:-1 tvg-id="646b1404ee6a2f00082b5d66" tvg-name="South Park: Kenny Collection" tvg-logo="https://images.pluto.tv/channels/646b1404ee6a2f00082b5d66/colorLogoPNG.png" group-title="South Park",South Park: Kenny Collection
+plugin://plugin.video.plutotv/play/pvr/646b1404ee6a2f00082b5d66
+#EXTINF:-1 tvg-id="646b1438e94c3800082a8cff" tvg-name="South Park: Stan Collection" tvg-logo="https://images.pluto.tv/channels/646b1438e94c3800082a8cff/colorLogoPNG.png" group-title="South Park",South Park: Stan Collection
+plugin://plugin.video.plutotv/play/pvr/646b1438e94c3800082a8cff
+#EXTINF:-1 tvg-id="646b14747cb4b1000875724d" tvg-name="South Park: Cartman Collection" tvg-logo="https://images.pluto.tv/channels/646b14747cb4b1000875724d/colorLogoPNG.png" group-title="South Park",South Park: Cartman Collection
+plugin://plugin.video.plutotv/play/pvr/646b14747cb4b1000875724d
+#EXTINF:-1 tvg-id="646b14a0e94c3800082a8d3a" tvg-name="South Park: Butters Collection" tvg-logo="https://images.pluto.tv/channels/646b14a0e94c3800082a8d3a/colorLogoPNG.png" group-title="South Park",South Park: Butters Collection
+plugin://plugin.video.plutotv/play/pvr/646b14a0e94c3800082a8d3a
+#EXTINF:-1 tvg-id="646b14d0e1979c0008915a09" tvg-name="South Park: Kyle Collection" tvg-logo="https://images.pluto.tv/channels/646b14d0e1979c0008915a09/colorLogoPNG.png" group-title="South Park",South Park: Kyle Collection
+plugin://plugin.video.plutotv/play/pvr/646b14d0e1979c0008915a09
+#EXTINF:-1 tvg-id="646b150a15939400089e2702" tvg-name="South Park: Original Version" tvg-logo="https://images.pluto.tv/channels/646b150a15939400089e2702/colorLogoPNG.png" group-title="South Park",South Park: Original Version
+plugin://plugin.video.plutotv/play/pvr/646b150a15939400089e2702
+#EXTINF:-1 tvg-id="64afe50c5dc16600087f3227" tvg-name="DAZN Heldinnen x Pluto TV" tvg-logo="https://images.pluto.tv/channels/64afe50c5dc16600087f3227/colorLogoPNG.png" group-title="Live Sports",DAZN Heldinnen x Pluto TV
+plugin://plugin.video.plutotv/play/pvr/64afe50c5dc16600087f3227
+#EXTINF:-1 tvg-id="64b67f0424ade50008a3be17" tvg-name="DAZN Darts x Pluto TV" tvg-logo="https://images.pluto.tv/channels/64b67f0424ade50008a3be17/colorLogoPNG.png" group-title="Live Sports",DAZN Darts x Pluto TV
+plugin://plugin.video.plutotv/play/pvr/64b67f0424ade50008a3be17
+#EXTINF:-1 tvg-id="64be635a40962900080aaca5" tvg-name="Rules of Engagement" tvg-logo="https://images.pluto.tv/channels/64be635a40962900080aaca5/colorLogoPNG.png" group-title="Sitcoms + Comedy",Rules of Engagement
+plugin://plugin.video.plutotv/play/pvr/64be635a40962900080aaca5
+#EXTINF:-1 tvg-id="64be64445dc166000899ce75" tvg-name="Pluto TV Polizeiserien" tvg-logo="https://images.pluto.tv/channels/64be64445dc166000899ce75/colorLogoPNG_1753350668041.png" group-title="Crime",Pluto TV Polizeiserien
+plugin://plugin.video.plutotv/play/pvr/64be64445dc166000899ce75
+#EXTINF:-1 tvg-id="64be7398e4391c0008cdedfe" tvg-name="Pluto TV Bud & Terence" tvg-logo="https://images.pluto.tv/channels/64be7398e4391c0008cdedfe/colorLogoPNG_1776936976930.png" group-title="Filme",Pluto TV Bud & Terence
+plugin://plugin.video.plutotv/play/pvr/64be7398e4391c0008cdedfe
+#EXTINF:-1 tvg-id="64be745340962900080b55e7" tvg-name="Melrose Place" tvg-logo="https://images.pluto.tv/channels/64be745340962900080b55e7/colorLogoPNG.png" group-title="Serien-Marathon",Melrose Place
+plugin://plugin.video.plutotv/play/pvr/64be745340962900080b55e7
+#EXTINF:-1 tvg-id="64be826b0e086a0009d95779" tvg-name="Dating Naked UK" tvg-logo="https://images.pluto.tv/channels/64be826b0e086a0009d95779/colorLogoPNG_1781187966236.png" group-title="Reality",Dating Naked UK
+plugin://plugin.video.plutotv/play/pvr/64be826b0e086a0009d95779
+#EXTINF:-1 tvg-id="64c109735dc1660008a4a2dc" tvg-name="Top Gear" tvg-logo="https://images.pluto.tv/channels/64c109735dc1660008a4a2dc/colorLogoPNG.png" group-title="Sport",Top Gear
+plugin://plugin.video.plutotv/play/pvr/64c109735dc1660008a4a2dc
+#EXTINF:-1 tvg-id="64c11d0f060e830008ed3eee" tvg-name="MTV Caught in the Act" tvg-logo="https://images.pluto.tv/channels/64c11d0f060e830008ed3eee/colorLogoPNG_1780494661155.png" group-title="Reality",MTV Caught in the Act
+plugin://plugin.video.plutotv/play/pvr/64c11d0f060e830008ed3eee
+#EXTINF:-1 tvg-id="64eddc3485efec00085b0369" tvg-name="Perry Mason" tvg-logo="https://images.pluto.tv/channels/64eddc3485efec00085b0369/colorLogoPNG.png" group-title="Crime",Perry Mason
+plugin://plugin.video.plutotv/play/pvr/64eddc3485efec00085b0369
+#EXTINF:-1 tvg-id="64eddce19001910008df22b8" tvg-name="F.B.I. Files" tvg-logo="https://images.pluto.tv/channels/64eddce19001910008df22b8/colorLogoPNG.png" group-title="True Crime",F.B.I. Files
+plugin://plugin.video.plutotv/play/pvr/64eddce19001910008df22b8
+#EXTINF:-1 tvg-id="65004605110545000842035d" tvg-name="Pluto TV Action" tvg-logo="https://images.pluto.tv/channels/65004605110545000842035d/colorLogoPNG_1751356419664.png" group-title="Filme",Pluto TV Action
+plugin://plugin.video.plutotv/play/pvr/65004605110545000842035d
+#EXTINF:-1 tvg-id="650adc3198020f000862eed4" tvg-name="Unentdeckt – Mörder unter uns" tvg-logo="https://images.pluto.tv/channels/650adc3198020f000862eed4/colorLogoPNG.png" group-title="True Crime",Unentdeckt – Mörder unter uns
+plugin://plugin.video.plutotv/play/pvr/650adc3198020f000862eed4
+#EXTINF:-1 tvg-id="65253d66c52b3600083d8dd2" tvg-name="Wicked Tuna" tvg-logo="https://images.pluto.tv/channels/65253d66c52b3600083d8dd2/colorLogoPNG.png" group-title="Reality",Wicked Tuna
+plugin://plugin.video.plutotv/play/pvr/65253d66c52b3600083d8dd2
+#EXTINF:-1 tvg-id="655ca3d1fbc15b00081f1186" tvg-name="Love Boat" tvg-logo="https://images.pluto.tv/channels/655ca3d1fbc15b00081f1186/colorLogoPNG.png" group-title="Sitcoms + Comedy",Love Boat
+plugin://plugin.video.plutotv/play/pvr/655ca3d1fbc15b00081f1186
+#EXTINF:-1 tvg-id="655ca57e4261ca00080b3a04" tvg-name="Anger Management" tvg-logo="https://images.pluto.tv/channels/655ca57e4261ca00080b3a04/colorLogoPNG.png" group-title="Sitcoms + Comedy",Anger Management
+plugin://plugin.video.plutotv/play/pvr/655ca57e4261ca00080b3a04
+#EXTINF:-1 tvg-id="6576c20fb3801200084786c9" tvg-name="SPIEGEL TV" tvg-logo="https://images.pluto.tv/channels/6576c20fb3801200084786c9/colorLogoPNG_1761807706966.png" group-title="Dokus + Wissen",SPIEGEL TV
+plugin://plugin.video.plutotv/play/pvr/6576c20fb3801200084786c9
+#EXTINF:-1 tvg-id="65a67c494a10d800085cab06" tvg-name="Drake & Josh" tvg-logo="https://images.pluto.tv/channels/65a67c494a10d800085cab06/colorLogoPNG.png" group-title="Kids",Drake & Josh
+plugin://plugin.video.plutotv/play/pvr/65a67c494a10d800085cab06
+#EXTINF:-1 tvg-id="65a67dd13af63d0008257f17" tvg-name="90210" tvg-logo="https://images.pluto.tv/channels/65a67dd13af63d0008257f17/colorLogoPNG.png" group-title="Serien-Marathon",90210
+plugin://plugin.video.plutotv/play/pvr/65a67dd13af63d0008257f17
+#EXTINF:-1 tvg-id="65b923f90cb1a100088a03ab" tvg-name="Terra Mater WILD" tvg-logo="https://images.pluto.tv/channels/65b923f90cb1a100088a03ab/colorLogoPNG.png" group-title="Dokus + Wissen",Terra Mater WILD
+plugin://plugin.video.plutotv/play/pvr/65b923f90cb1a100088a03ab
+#EXTINF:-1 tvg-id="65b9268fc798e800085add89" tvg-name="SPIEGEL TV Konflikte" tvg-logo="https://images.pluto.tv/channels/65b9268fc798e800085add89/colorLogoPNG.png" group-title="Dokus + Wissen",SPIEGEL TV Konflikte
+plugin://plugin.video.plutotv/play/pvr/65b9268fc798e800085add89
+#EXTINF:-1 tvg-id="65d5fc39a25d5e00082895c4" tvg-name="Naruto" tvg-logo="https://images.pluto.tv/channels/65d5fc39a25d5e00082895c4/colorLogoPNG.png" group-title="Anime",Naruto
+plugin://plugin.video.plutotv/play/pvr/65d5fc39a25d5e00082895c4
+#EXTINF:-1 tvg-id="65dde5848145cb00083277f6" tvg-name="KultKrimi: Derrick" tvg-logo="https://images.pluto.tv/channels/65dde5848145cb00083277f6/colorLogoPNG.png" group-title="Crime",KultKrimi: Derrick
+plugin://plugin.video.plutotv/play/pvr/65dde5848145cb00083277f6
+#EXTINF:-1 tvg-id="65dde5ef28730900089af7cf" tvg-name="KultKrimi: Der Alte" tvg-logo="https://images.pluto.tv/channels/65dde5ef28730900089af7cf/colorLogoPNG.png" group-title="Crime",KultKrimi: Der Alte
+plugin://plugin.video.plutotv/play/pvr/65dde5ef28730900089af7cf
+#EXTINF:-1 tvg-id="65dde626ec9fda0008b3dc89" tvg-name="KultKrimi: Der Kommissar" tvg-logo="https://images.pluto.tv/channels/65dde626ec9fda0008b3dc89/colorLogoPNG.png" group-title="Crime",KultKrimi: Der Kommissar
+plugin://plugin.video.plutotv/play/pvr/65dde626ec9fda0008b3dc89
+#EXTINF:-1 tvg-id="660bfc032433010008def35a" tvg-name="FIFA+" tvg-logo="https://images.pluto.tv/channels/660bfc032433010008def35a/colorLogoPNG_1750064741845.png" group-title="Sport",FIFA+
+plugin://plugin.video.plutotv/play/pvr/660bfc032433010008def35a
+#EXTINF:-1 tvg-id="6628e513cee0d90008639b46" tvg-name="RoboCop" tvg-logo="https://images.pluto.tv/channels/6628e513cee0d90008639b46/colorLogoPNG.png" group-title="Sci-Fi & Fantasy",RoboCop
+plugin://plugin.video.plutotv/play/pvr/6628e513cee0d90008639b46
+#EXTINF:-1 tvg-id="66337de656fc840008ff7a65" tvg-name="Pluto TV Kult Comedies" tvg-logo="https://images.pluto.tv/channels/66337de656fc840008ff7a65/colorLogoPNG.png" group-title="Filme",Pluto TV Kult Comedies
+plugin://plugin.video.plutotv/play/pvr/66337de656fc840008ff7a65
+#EXTINF:-1 tvg-id="66337e365a402e00087eccaf" tvg-name="CNN Headlines International" tvg-logo="https://images.pluto.tv/channels/66337e365a402e00087eccaf/colorLogoPNG_1775159594177.png" group-title="Nachrichten",CNN Headlines International
+plugin://plugin.video.plutotv/play/pvr/66337e365a402e00087eccaf
+#EXTINF:-1 tvg-id="66337e6ba0a74e000889563b" tvg-name="MODUS Super Series Darts" tvg-logo="https://images.pluto.tv/channels/66337e6ba0a74e000889563b/colorLogoPNG_1732093439335.png" group-title="Live Sports",MODUS Super Series Darts
+plugin://plugin.video.plutotv/play/pvr/66337e6ba0a74e000889563b
+#EXTINF:-1 tvg-id="66337ea1307fa300082c28a0" tvg-name="BVB-Frauen" tvg-logo="https://images.pluto.tv/channels/66337ea1307fa300082c28a0/colorLogoPNG_1755794338808.png" group-title="Live Sports",BVB-Frauen
+plugin://plugin.video.plutotv/play/pvr/66337ea1307fa300082c28a0
+#EXTINF:-1 tvg-id="6639d7d4b18d700008da5316" tvg-name="Euronews" tvg-logo="https://images.pluto.tv/channels/6639d7d4b18d700008da5316/colorLogoPNG.png" group-title="Nachrichten",Euronews
+plugin://plugin.video.plutotv/play/pvr/6639d7d4b18d700008da5316
+#EXTINF:-1 tvg-id="663a15d7cb3ea10008edac88" tvg-name="Farmland TV" tvg-logo="https://images.pluto.tv/channels/663a15d7cb3ea10008edac88/colorLogoPNG.png" group-title="Dokus + Wissen",Farmland TV
+plugin://plugin.video.plutotv/play/pvr/663a15d7cb3ea10008edac88
+#EXTINF:-1 tvg-id="663a163f8ea5560008a3f234" tvg-name="Andromeda" tvg-logo="https://images.pluto.tv/channels/663a163f8ea5560008a3f234/colorLogoPNG.png" group-title="Sci-Fi & Fantasy",Andromeda
+plugin://plugin.video.plutotv/play/pvr/663a163f8ea5560008a3f234
+#EXTINF:-1 tvg-id="663a176ecb3ea10008edacf9" tvg-name="Pluto TV Stimulierende Dokus" tvg-logo="https://images.pluto.tv/channels/663a176ecb3ea10008edacf9/colorLogoPNG_1784109744018.png" group-title="Sinnliche Fantasien",Pluto TV Stimulierende Dokus
+plugin://plugin.video.plutotv/play/pvr/663a176ecb3ea10008edacf9
+#EXTINF:-1 tvg-id="663e09b341af640008c1b68c" tvg-name="Stand-up Comedy" tvg-logo="https://images.pluto.tv/channels/663e09b341af640008c1b68c/colorLogoPNG.png" group-title="Sitcoms + Comedy",Stand-up Comedy
+plugin://plugin.video.plutotv/play/pvr/663e09b341af640008c1b68c
+#EXTINF:-1 tvg-id="663e09e4b18d700008e48dcf" tvg-name="BIG BROTHER CLASSIC" tvg-logo="https://images.pluto.tv/channels/663e09e4b18d700008e48dcf/colorLogoPNG.png" group-title="Reality",BIG BROTHER CLASSIC
+plugin://plugin.video.plutotv/play/pvr/663e09e4b18d700008e48dcf
+#EXTINF:-1 tvg-id="664f10c4f9992200084a2f47" tvg-name="Pluto TV Heiße Nächte Retro" tvg-logo="https://images.pluto.tv/channels/664f10c4f9992200084a2f47/colorLogoPNG.png" group-title="Sinnliche Fantasien",Pluto TV Heiße Nächte Retro
+plugin://plugin.video.plutotv/play/pvr/664f10c4f9992200084a2f47
+#EXTINF:-1 tvg-id="666fe4768768aa0008c31ddf" tvg-name="Saving Hope" tvg-logo="https://images.pluto.tv/channels/666fe4768768aa0008c31ddf/colorLogoPNG_1768982344485.png" group-title="Serien-Marathon",Saving Hope
+plugin://plugin.video.plutotv/play/pvr/666fe4768768aa0008c31ddf
+#EXTINF:-1 tvg-id="6672f49f61a39900089db68e" tvg-name="Pluto TV Deutsche Comedy" tvg-logo="https://images.pluto.tv/channels/6672f49f61a39900089db68e/colorLogoPNG_1748857141516.png" group-title="Sitcoms + Comedy",Pluto TV Deutsche Comedy
+plugin://plugin.video.plutotv/play/pvr/6672f49f61a39900089db68e
+#EXTINF:-1 tvg-id="667d3534ca74680008696051" tvg-name="Ladykracher" tvg-logo="https://images.pluto.tv/channels/667d3534ca74680008696051/colorLogoPNG.png" group-title="Sitcoms + Comedy",Ladykracher
+plugin://plugin.video.plutotv/play/pvr/667d3534ca74680008696051
+#EXTINF:-1 tvg-id="667d63d236a2f90008f72269" tvg-name="Axel!" tvg-logo="https://images.pluto.tv/channels/667d63d236a2f90008f72269/colorLogoPNG.png" group-title="Sitcoms + Comedy",Axel!
+plugin://plugin.video.plutotv/play/pvr/667d63d236a2f90008f72269
+#EXTINF:-1 tvg-id="66a10384d5125900089dfd04" tvg-name="Top Gear Challenge" tvg-logo="https://images.pluto.tv/channels/66a10384d5125900089dfd04/colorLogoPNG.png" group-title="Dokus + Wissen",Top Gear Challenge
+plugin://plugin.video.plutotv/play/pvr/66a10384d5125900089dfd04
+#EXTINF:-1 tvg-id="66a244d5cd0d3100083b1e47" tvg-name="Eine himmlische Familie" tvg-logo="https://images.pluto.tv/channels/66a244d5cd0d3100083b1e47/colorLogoPNG.png" group-title="Serien-Marathon",Eine himmlische Familie
+plugin://plugin.video.plutotv/play/pvr/66a244d5cd0d3100083b1e47
+#EXTINF:-1 tvg-id="66c45b1803e3b20008d8c200" tvg-name="CNNi" tvg-logo="https://images.pluto.tv/channels/66c45b1803e3b20008d8c200/colorLogoPNG_1775663079265.png" group-title="Nachrichten",CNNi
+plugin://plugin.video.plutotv/play/pvr/66c45b1803e3b20008d8c200
+#EXTINF:-1 tvg-id="66c6fc06489bab0008b6f9da" tvg-name="Die Nanny" tvg-logo="https://images.pluto.tv/channels/66c6fc06489bab0008b6f9da/colorLogoPNG.png" group-title="Sitcoms + Comedy",Die Nanny
+plugin://plugin.video.plutotv/play/pvr/66c6fc06489bab0008b6f9da
+#EXTINF:-1 tvg-id="66c6fcfc6838ee00085beb1a" tvg-name="McLeods Töchter" tvg-logo="https://images.pluto.tv/channels/66c6fcfc6838ee00085beb1a/colorLogoPNG.png" group-title="Serien-Marathon",McLeods Töchter
+plugin://plugin.video.plutotv/play/pvr/66c6fcfc6838ee00085beb1a
+#EXTINF:-1 tvg-id="677e5a3d7bffa6000808dbf2" tvg-name="Pluto TV Britische Serien" tvg-logo="https://images.pluto.tv/channels/677e5a3d7bffa6000808dbf2/colorLogoPNG.png" group-title="Serien-Marathon",Pluto TV Britische Serien
+plugin://plugin.video.plutotv/play/pvr/677e5a3d7bffa6000808dbf2
+#EXTINF:-1 tvg-id="677fafd91da79bfe4fb0b4ec" tvg-name="Quantum Leap" tvg-logo="https://images.pluto.tv/channels/677fafd91da79bfe4fb0b4ec/colorLogoPNG_1770397003859.png" group-title="Sci-Fi & Fantasy",Quantum Leap
+plugin://plugin.video.plutotv/play/pvr/677fafd91da79bfe4fb0b4ec
+#EXTINF:-1 tvg-id="677fb0231da79bfe4fb0bf4e" tvg-name="The Real Housewives" tvg-logo="https://images.pluto.tv/channels/677fb0231da79bfe4fb0bf4e/colorLogoPNG_1761917749572.png" group-title="Reality",The Real Housewives
+plugin://plugin.video.plutotv/play/pvr/677fb0231da79bfe4fb0bf4e
+#EXTINF:-1 tvg-id="677fb078a4af36ad50111032" tvg-name="Die Sieben-Millionen-Dollar-Frau" tvg-logo="https://images.pluto.tv/channels/677fb078a4af36ad50111032/colorLogoPNG.png" group-title="Sci-Fi & Fantasy",Die Sieben-Millionen-Dollar-Frau
+plugin://plugin.video.plutotv/play/pvr/677fb078a4af36ad50111032
+#EXTINF:-1 tvg-id="6790fa9e1cfc4aa96dfadcef" tvg-name="Frasier: Berühmte Gäste" tvg-logo="https://images.pluto.tv/channels/6790fa9e1cfc4aa96dfadcef/colorLogoPNG.png" group-title="Sitcoms + Comedy",Frasier: Berühmte Gäste
+plugin://plugin.video.plutotv/play/pvr/6790fa9e1cfc4aa96dfadcef
+#EXTINF:-1 tvg-id="67a324d221af380008105d6f" tvg-name="Eine schrecklich nette Familie" tvg-logo="https://images.pluto.tv/channels/67a324d221af380008105d6f/colorLogoPNG.png" group-title="Sitcoms + Comedy",Eine schrecklich nette Familie
+plugin://plugin.video.plutotv/play/pvr/67a324d221af380008105d6f
+#EXTINF:-1 tvg-id="67d983d6a1609bdb523f5f9b" tvg-name="Pluto TV Sanfte Berührungen" tvg-logo="https://images.pluto.tv/channels/67d983d6a1609bdb523f5f9b/colorLogoPNG_1745932379351.png" group-title="Sinnliche Fantasien",Pluto TV Sanfte Berührungen
+plugin://plugin.video.plutotv/play/pvr/67d983d6a1609bdb523f5f9b
+#EXTINF:-1 tvg-id="67d984408d8dc3d7754dccf2" tvg-name="Pluto TV Nordic Crime" tvg-logo="https://images.pluto.tv/channels/67d984408d8dc3d7754dccf2/colorLogoPNG_1746817551952.png" group-title="Crime",Pluto TV Nordic Crime
+plugin://plugin.video.plutotv/play/pvr/67d984408d8dc3d7754dccf2
+#EXTINF:-1 tvg-id="67d984c989788ef7f058b084" tvg-name="Profiling Paris" tvg-logo="https://images.pluto.tv/channels/67d984c989788ef7f058b084/colorLogoPNG.png" group-title="Crime",Profiling Paris
+plugin://plugin.video.plutotv/play/pvr/67d984c989788ef7f058b084
+#EXTINF:-1 tvg-id="67dc21ce5a15c0759a07ee19" tvg-name="Der Chef" tvg-logo="https://images.pluto.tv/channels/67dc21ce5a15c0759a07ee19/colorLogoPNG_1762189762673.png" group-title="Crime",Der Chef
+plugin://plugin.video.plutotv/play/pvr/67dc21ce5a15c0759a07ee19
+#EXTINF:-1 tvg-id="67ebbdced2832b463faa1e79" tvg-name="KultKrimi: Küstenwache" tvg-logo="https://images.pluto.tv/channels/67ebbdced2832b463faa1e79/colorLogoPNG_1745819408443.png" group-title="Action",KultKrimi: Küstenwache
+plugin://plugin.video.plutotv/play/pvr/67ebbdced2832b463faa1e79
+#EXTINF:-1 tvg-id="67ebc04855de98dc71428538" tvg-name="Pluto TV Emmanuelle Filme" tvg-logo="https://images.pluto.tv/channels/67ebc04855de98dc71428538/colorLogoPNG_1768808619480.png" group-title="Sinnliche Fantasien",Pluto TV Emmanuelle Filme
+plugin://plugin.video.plutotv/play/pvr/67ebc04855de98dc71428538
+#EXTINF:-1 tvg-id="67ed0c86f7c5d70b90889a51" tvg-name="KultKrimi: Die Rettungsflieger" tvg-logo="https://images.pluto.tv/channels/67ed0c86f7c5d70b90889a51/colorLogoPNG_1745819307940.png" group-title="Action",KultKrimi: Die Rettungsflieger
+plugin://plugin.video.plutotv/play/pvr/67ed0c86f7c5d70b90889a51
+#EXTINF:-1 tvg-id="67f3eb1c443f0671bc03ece8" tvg-name="Nick Jr. Club" tvg-logo="https://images.pluto.tv/channels/67f3eb1c443f0671bc03ece8/colorLogoPNG_1748329104247.png" group-title="Kids",Nick Jr. Club
+plugin://plugin.video.plutotv/play/pvr/67f3eb1c443f0671bc03ece8
+#EXTINF:-1 tvg-id="67f3eb800a1beb98767ca748" tvg-name="Nickelodeon Classics" tvg-logo="https://images.pluto.tv/channels/67f3eb800a1beb98767ca748/colorLogoPNG_1749200817646.png" group-title="Kids",Nickelodeon Classics
+plugin://plugin.video.plutotv/play/pvr/67f3eb800a1beb98767ca748
+#EXTINF:-1 tvg-id="67f68bd2135aeda9ddf0ef54" tvg-name="Pluto TV Adult Animation" tvg-logo="https://images.pluto.tv/channels/67f68bd2135aeda9ddf0ef54/colorLogoPNG_1746816413112.png" group-title="Serien-Marathon",Pluto TV Adult Animation
+plugin://plugin.video.plutotv/play/pvr/67f68bd2135aeda9ddf0ef54
+#EXTINF:-1 tvg-id="67ff7d9c7fc25e0e72451bc9" tvg-name="Pluto TV Horror-Serien" tvg-logo="https://images.pluto.tv/channels/67ff7d9c7fc25e0e72451bc9/colorLogoPNG_1749796239058.png" group-title="Horror & Paranormal",Pluto TV Horror-Serien
+plugin://plugin.video.plutotv/play/pvr/67ff7d9c7fc25e0e72451bc9
+#EXTINF:-1 tvg-id="67ff7dd84906b1acfad97330" tvg-name="Blue Mountain State" tvg-logo="https://images.pluto.tv/channels/67ff7dd84906b1acfad97330/colorLogoPNG_1748596736714.png" group-title="Serien-Marathon",Blue Mountain State
+plugin://plugin.video.plutotv/play/pvr/67ff7dd84906b1acfad97330
+#EXTINF:-1 tvg-id="682453215c646751955e1204" tvg-name="Pluto TV Western Serien" tvg-logo="https://images.pluto.tv/channels/682453215c646751955e1204/colorLogoPNG_1758265241676.png" group-title="Western",Pluto TV Western Serien
+plugin://plugin.video.plutotv/play/pvr/682453215c646751955e1204
+#EXTINF:-1 tvg-id="6824539e1295f98347e95242" tvg-name="Missions" tvg-logo="https://images.pluto.tv/channels/6824539e1295f98347e95242/colorLogoPNG_1756201073402.png" group-title="Sci-Fi & Fantasy",Missions
+plugin://plugin.video.plutotv/play/pvr/6824539e1295f98347e95242
+#EXTINF:-1 tvg-id="684ac10236c9361b1977f7bc" tvg-name="Bronco" tvg-logo="https://images.pluto.tv/channels/684ac10236c9361b1977f7bc/colorLogoPNG_1757588251975.png" group-title="Western",Bronco
+plugin://plugin.video.plutotv/play/pvr/684ac10236c9361b1977f7bc
+#EXTINF:-1 tvg-id="685136fb33a52de120bbb086" tvg-name="MTV Reality" tvg-logo="https://images.pluto.tv/channels/685136fb33a52de120bbb086/colorLogoPNG_1783324321044.png" group-title="Reality",MTV Reality
+plugin://plugin.video.plutotv/play/pvr/685136fb33a52de120bbb086
+#EXTINF:-1 tvg-id="68590366010ddd78ef837d29" tvg-name="KultKrimi: Ein Fall für zwei" tvg-logo="https://images.pluto.tv/channels/68590366010ddd78ef837d29/colorLogoPNG_1751971997033.png" group-title="Crime",KultKrimi: Ein Fall für zwei
+plugin://plugin.video.plutotv/play/pvr/68590366010ddd78ef837d29
+#EXTINF:-1 tvg-id="685aaec481c345899e4458bb" tvg-name="Dominance FC TV" tvg-logo="https://images.pluto.tv/channels/685aaec481c345899e4458bb/colorLogoPNG_1750773594287.png" group-title="Live Sports",Dominance FC TV
+plugin://plugin.video.plutotv/play/pvr/685aaec481c345899e4458bb
+#EXTINF:-1 tvg-id="6864e8f264d94c1425fb4563" tvg-name="Merhaba Türkische Serien" tvg-logo="https://images.pluto.tv/channels/6864e8f264d94c1425fb4563/colorLogoPNG_1781707031535.png" group-title="Serien-Marathon",Merhaba Türkische Serien
+plugin://plugin.video.plutotv/play/pvr/6864e8f264d94c1425fb4563
+#EXTINF:-1 tvg-id="6866525c8a412a0e95c438b4" tvg-name="Dyn Sport Mix" tvg-logo="https://images.pluto.tv/channels/6866525c8a412a0e95c438b4/colorLogoPNG_1753770799796.png" group-title="Live Sports",Dyn Sport Mix
+plugin://plugin.video.plutotv/play/pvr/6866525c8a412a0e95c438b4
+#EXTINF:-1 tvg-id="686cfef52704ca31d85c4bf1" tvg-name="Pastewka" tvg-logo="https://images.pluto.tv/channels/686cfef52704ca31d85c4bf1/colorLogoPNG_1753793017907.png" group-title="Sitcoms + Comedy",Pastewka
+plugin://plugin.video.plutotv/play/pvr/686cfef52704ca31d85c4bf1
+#EXTINF:-1 tvg-id="686cff3224918d4300fa542b" tvg-name="Stromberg" tvg-logo="https://images.pluto.tv/channels/686cff3224918d4300fa542b/colorLogoPNG_1753976762248.png" group-title="Sitcoms + Comedy",Stromberg
+plugin://plugin.video.plutotv/play/pvr/686cff3224918d4300fa542b
+#EXTINF:-1 tvg-id="686cffbf3ffa5e0c91cdcfb3" tvg-name="21 Jump Street" tvg-logo="https://images.pluto.tv/channels/686cffbf3ffa5e0c91cdcfb3/colorLogoPNG_1751973874661.png" group-title="Action",21 Jump Street
+plugin://plugin.video.plutotv/play/pvr/686cffbf3ffa5e0c91cdcfb3
+#EXTINF:-1 tvg-id="686d004094a028da3aac8cb0" tvg-name="Don Matteo" tvg-logo="https://images.pluto.tv/channels/686d004094a028da3aac8cb0/colorLogoPNG_1759148252016.png" group-title="Crime",Don Matteo
+plugin://plugin.video.plutotv/play/pvr/686d004094a028da3aac8cb0
+#EXTINF:-1 tvg-id="6870c9333ffa5e0c914e9205" tvg-name="Tennis Channel" tvg-logo="https://images.pluto.tv/channels/6870c9333ffa5e0c914e9205/colorLogoPNG_1756709434849.png" group-title="Live Sports",Tennis Channel
+plugin://plugin.video.plutotv/play/pvr/6870c9333ffa5e0c914e9205
+#EXTINF:-1 tvg-id="688734b9035d6ef9c34aac16" tvg-name="Die fliegenden Ärzte" tvg-logo="https://images.pluto.tv/channels/688734b9035d6ef9c34aac16/colorLogoPNG_1758284321864.png" group-title="Serien-Marathon",Die fliegenden Ärzte
+plugin://plugin.video.plutotv/play/pvr/688734b9035d6ef9c34aac16
+#EXTINF:-1 tvg-id="688735087b2cf33d01a2d411" tvg-name="Sea Patrol" tvg-logo="https://images.pluto.tv/channels/688735087b2cf33d01a2d411/colorLogoPNG_1757918762968.png" group-title="Action",Sea Patrol
+plugin://plugin.video.plutotv/play/pvr/688735087b2cf33d01a2d411
+#EXTINF:-1 tvg-id="68ac5543a1ac0c90f2c8943e" tvg-name="Pluto TV Snooker 900" tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" group-title="Live Sports",Pluto TV Snooker 900
+plugin://plugin.video.plutotv/play/pvr/68ac5543a1ac0c90f2c8943e
+#EXTINF:-1 tvg-id="68ad90673efb41cd97c95825" tvg-name="The Outer Limits" tvg-logo="https://images.pluto.tv/channels/68ad90673efb41cd97c95825/colorLogoPNG_1768464264146.png" group-title="Sci-Fi & Fantasy",The Outer Limits
+plugin://plugin.video.plutotv/play/pvr/68ad90673efb41cd97c95825
+#EXTINF:-1 tvg-id="68ada3395190a45dc9c445cf" tvg-name="Pluto TV Historische Serien" tvg-logo="https://images.pluto.tv/channels/68ada3395190a45dc9c445cf/colorLogoPNG_1760957063422.png" group-title="Serien-Marathon",Pluto TV Historische Serien
+plugin://plugin.video.plutotv/play/pvr/68ada3395190a45dc9c445cf
+#EXTINF:-1 tvg-id="68ada3edf84960586ad31c7d" tvg-name="Pluto TV Reportagen" tvg-logo="https://images.pluto.tv/channels/68ada3edf84960586ad31c7d/colorLogoPNG_1760078189640.png" group-title="Dokus + Wissen",Pluto TV Reportagen
+plugin://plugin.video.plutotv/play/pvr/68ada3edf84960586ad31c7d
+#EXTINF:-1 tvg-id="68ada46d5190a45dc9c45af1" tvg-name="Pluto TV Ferne Galaxien" tvg-logo="https://images.pluto.tv/channels/68ada46d5190a45dc9c45af1/colorLogoPNG_1773754781519.png" group-title="Sci-Fi & Fantasy",Pluto TV Ferne Galaxien
+plugin://plugin.video.plutotv/play/pvr/68ada46d5190a45dc9c45af1
+#EXTINF:-1 tvg-id="68d27437e6767bdeb23f0336" tvg-name="Gigolos" tvg-logo="https://images.pluto.tv/channels/68d27437e6767bdeb23f0336/colorLogoPNG_1758705599610.png" group-title="Sinnliche Fantasien",Gigolos
+plugin://plugin.video.plutotv/play/pvr/68d27437e6767bdeb23f0336
+#EXTINF:-1 tvg-id="68d2759a59fd82da3226492d" tvg-name="The L Word – Wenn Frauen lieben" tvg-logo="https://images.pluto.tv/channels/68d2759a59fd82da3226492d/colorLogoPNG_1769617985920.png" group-title="Serien-Marathon",The L Word – Wenn Frauen lieben
+plugin://plugin.video.plutotv/play/pvr/68d2759a59fd82da3226492d
+#EXTINF:-1 tvg-id="68d276ce59fd82da32267d0d" tvg-name="Liebe Sünde" tvg-logo="https://images.pluto.tv/channels/68d276ce59fd82da32267d0d/colorLogoPNG_1763647481975.png" group-title="Sinnliche Fantasien",Liebe Sünde
+plugin://plugin.video.plutotv/play/pvr/68d276ce59fd82da32267d0d
+#EXTINF:-1 tvg-id="68d277fb12bf71eaaed3e9f1" tvg-name="Flipper" tvg-logo="https://images.pluto.tv/channels/68d277fb12bf71eaaed3e9f1/colorLogoPNG_1765786137783.png" group-title="Serien-Marathon",Flipper
+plugin://plugin.video.plutotv/play/pvr/68d277fb12bf71eaaed3e9f1
+#EXTINF:-1 tvg-id="6914913274601d957ae35565" tvg-name="Ax Men - Die Holzfäller" tvg-logo="https://images.pluto.tv/channels/6914913274601d957ae35565/colorLogoPNG_1768808755553.png" group-title="Dokus + Wissen",Ax Men - Die Holzfäller
+plugin://plugin.video.plutotv/play/pvr/6914913274601d957ae35565
+#EXTINF:-1 tvg-id="691491c6bb69fb3258c3524a" tvg-name="Swamp People" tvg-logo="https://images.pluto.tv/channels/691491c6bb69fb3258c3524a/colorLogoPNG_1768809420115.png" group-title="Dokus + Wissen",Swamp People
+plugin://plugin.video.plutotv/play/pvr/691491c6bb69fb3258c3524a
+#EXTINF:-1 tvg-id="691b2b690d121b44ad4a53ef" tvg-name="Dating hinter Gittern" tvg-logo="https://images.pluto.tv/channels/691b2b690d121b44ad4a53ef/colorLogoPNG_1768906011060.png" group-title="Reality",Dating hinter Gittern
+plugin://plugin.video.plutotv/play/pvr/691b2b690d121b44ad4a53ef
+#EXTINF:-1 tvg-id="69492467ae33e24d916e56cf" tvg-name="Pluto TV Star Trek: Animation" tvg-logo="https://images.pluto.tv/channels/69492467ae33e24d916e56cf/colorLogoPNG_1770896970638.png" group-title="Sci-Fi & Fantasy",Pluto TV Star Trek: Animation
+plugin://plugin.video.plutotv/play/pvr/69492467ae33e24d916e56cf
+#EXTINF:-1 tvg-id="69690c6ea1b03f531587d2c2" tvg-name="Akiba Anime" tvg-logo="https://images.pluto.tv/channels/69690c6ea1b03f531587d2c2/colorLogoPNG_1784549597168.png" group-title="Anime",Akiba Anime
+plugin://plugin.video.plutotv/play/pvr/69690c6ea1b03f531587d2c2
+#EXTINF:-1 tvg-id="69776b58036e883f39e5ab8a" tvg-name="Star Trek: The Original Series" tvg-logo="https://images.pluto.tv/channels/69776b58036e883f39e5ab8a/colorLogoPNG_1769434091096.png" group-title="Sci-Fi & Fantasy",Star Trek: The Original Series
+plugin://plugin.video.plutotv/play/pvr/69776b58036e883f39e5ab8a
+#EXTINF:-1 tvg-id="69776ce979545c21a1220bff" tvg-name="Star Trek: The Next Generation" tvg-logo="https://images.pluto.tv/channels/69776ce979545c21a1220bff/colorLogoPNG_1769434849537.png" group-title="Sci-Fi & Fantasy",Star Trek: The Next Generation
+plugin://plugin.video.plutotv/play/pvr/69776ce979545c21a1220bff
+#EXTINF:-1 tvg-id="69776f2b2c00406316a01945" tvg-name="Call My Agent!" tvg-logo="https://images.pluto.tv/channels/69776f2b2c00406316a01945/colorLogoPNG_1770911802379.png" group-title="Serien-Marathon",Call My Agent!
+plugin://plugin.video.plutotv/play/pvr/69776f2b2c00406316a01945
+#EXTINF:-1 tvg-id="697a0577f9c3aa5a215a4ef8" tvg-name="Will&Grace" tvg-logo="https://images.pluto.tv/channels/697a0577f9c3aa5a215a4ef8/colorLogoPNG_1769604535866.png" group-title="Sitcoms + Comedy",Will&Grace
+plugin://plugin.video.plutotv/play/pvr/697a0577f9c3aa5a215a4ef8
+#EXTINF:-1 tvg-id="6989b64839dd847194cadcd7" tvg-name="The Librarians" tvg-logo="https://images.pluto.tv/channels/6989b64839dd847194cadcd7/colorLogoPNG_1772704162554.png" group-title="Sci-Fi & Fantasy",The Librarians
+plugin://plugin.video.plutotv/play/pvr/6989b64839dd847194cadcd7
+#EXTINF:-1 tvg-id="6996f0335452cb4f0a2c4153" tvg-name="The Nanny & Mr Sheffield - A Fine Romance" tvg-logo="https://images.pluto.tv/channels/6996f0335452cb4f0a2c4153/colorLogoPNG_1771499680778.png" group-title="Sitcoms + Comedy",The Nanny & Mr Sheffield - A Fine Romance
+plugin://plugin.video.plutotv/play/pvr/6996f0335452cb4f0a2c4153
+#EXTINF:-1 tvg-id="69a554179a3f3bb488c7d2be" tvg-name="Pluto TV Laughs in Spanish" tvg-logo="https://images.pluto.tv/channels/69a554179a3f3bb488c7d2be/colorLogoPNG_1774964411015.png" group-title="Sitcoms + Comedy",Pluto TV Laughs in Spanish
+plugin://plugin.video.plutotv/play/pvr/69a554179a3f3bb488c7d2be
+#EXTINF:-1 tvg-id="69a554497ed3b3fff0b9ca80" tvg-name="Space Live" tvg-logo="https://images.pluto.tv/channels/69a554497ed3b3fff0b9ca80/colorLogoPNG_1774635553534.png" group-title="Dokus + Wissen",Space Live
+plugin://plugin.video.plutotv/play/pvr/69a554497ed3b3fff0b9ca80
+#EXTINF:-1 tvg-id="69b015c5d29cc97de7da4af8" tvg-name="Pluto TV Haialarm" tvg-logo="https://images.pluto.tv/channels/69b015c5d29cc97de7da4af8/colorLogoPNG_1779802132594.png" group-title="Action",Pluto TV Haialarm
+plugin://plugin.video.plutotv/play/pvr/69b015c5d29cc97de7da4af8
+#EXTINF:-1 tvg-id="69b0160da9b840a456a11b4a" tvg-name="Vier Frauen und ein Todesfall" tvg-logo="https://images.pluto.tv/channels/69b0160da9b840a456a11b4a/colorLogoPNG_1775136896726.png" group-title="Crime",Vier Frauen und ein Todesfall
+plugin://plugin.video.plutotv/play/pvr/69b0160da9b840a456a11b4a
+#EXTINF:-1 tvg-id="69b01641a9b840a456a11c18" tvg-name="Schlosshotel Orth" tvg-logo="https://images.pluto.tv/channels/69b01641a9b840a456a11c18/colorLogoPNG_1775134475322.png" group-title="Serien-Marathon",Schlosshotel Orth
+plugin://plugin.video.plutotv/play/pvr/69b01641a9b840a456a11c18
+#EXTINF:-1 tvg-id="69b0167477cdde1f05c8a625" tvg-name="Der Bergdoktor" tvg-logo="https://images.pluto.tv/channels/69b0167477cdde1f05c8a625/colorLogoPNG_1777303231853.png" group-title="Serien-Marathon",Der Bergdoktor
+plugin://plugin.video.plutotv/play/pvr/69b0167477cdde1f05c8a625
+#EXTINF:-1 tvg-id="69b14863dd687227e1e4b6b2" tvg-name="Seaquest" tvg-logo="https://images.pluto.tv/channels/69b14863dd687227e1e4b6b2/colorLogoPNG_1774343171601.png" group-title="Sci-Fi & Fantasy",Seaquest
+plugin://plugin.video.plutotv/play/pvr/69b14863dd687227e1e4b6b2
+#EXTINF:-1 tvg-id="69b968a58323ef2714d1aa36" tvg-name="Schnell ermittelt" tvg-logo="https://images.pluto.tv/channels/69b968a58323ef2714d1aa36/colorLogoPNG_1773850012880.png" group-title="Crime",Schnell ermittelt
+plugin://plugin.video.plutotv/play/pvr/69b968a58323ef2714d1aa36
+#EXTINF:-1 tvg-id="69b968ba255fecb01f602257" tvg-name="Pluto TV Comedy Therapie" tvg-logo="https://images.pluto.tv/channels/69b968ba255fecb01f602257/colorLogoPNG_1777380677093.png" group-title="Sitcoms + Comedy",Pluto TV Comedy Therapie
+plugin://plugin.video.plutotv/play/pvr/69b968ba255fecb01f602257
+#EXTINF:-1 tvg-id="69b968ca1c36025fd0a3d92d" tvg-name="Pluto TV Worst of Bundy" tvg-logo="https://images.pluto.tv/channels/69b968ca1c36025fd0a3d92d/colorLogoPNG_1777369824096.png" group-title="Sitcoms + Comedy",Pluto TV Worst of Bundy
+plugin://plugin.video.plutotv/play/pvr/69b968ca1c36025fd0a3d92d
+#EXTINF:-1 tvg-id="69b968e011fc7b9e27c0d958" tvg-name="Pluto TV Fran: Beste Mama-Momente" tvg-logo="https://images.pluto.tv/channels/69b968e011fc7b9e27c0d958/colorLogoPNG_1777469414817.png" group-title="Sitcoms + Comedy",Pluto TV Fran: Beste Mama-Momente
+plugin://plugin.video.plutotv/play/pvr/69b968e011fc7b9e27c0d958
+#EXTINF:-1 tvg-id="69c2ac2b14c0213702da7a29" tvg-name="Die glorreichen Sieben" tvg-logo="https://images.pluto.tv/channels/69c2ac2b14c0213702da7a29/colorLogoPNG_1777903480144.png" group-title="Western",Die glorreichen Sieben
+plugin://plugin.video.plutotv/play/pvr/69c2ac2b14c0213702da7a29
+#EXTINF:-1 tvg-id="69f0802b40ffd5e0717dd952" tvg-name="Kommissar Rex" tvg-logo="https://images.pluto.tv/channels/69f0802b40ffd5e0717dd952/colorLogoPNG_1785145798565.png" group-title="Crime",Kommissar Rex
+plugin://plugin.video.plutotv/play/pvr/69f0802b40ffd5e0717dd952
+#EXTINF:-1 tvg-id="69fca82ff6ac24413f5338fa" tvg-name="NCIS: New Orleans" tvg-logo="https://images.pluto.tv/channels/69fca82ff6ac24413f5338fa/colorLogoPNG_1778165914933.png" group-title="Crime",NCIS: New Orleans
+plugin://plugin.video.plutotv/play/pvr/69fca82ff6ac24413f5338fa
+#EXTINF:-1 tvg-id="6a31609d2e5d44e1a2f5fede" tvg-name="Pluto TV Star Trek: Bösewichte & Gegenspieler" tvg-logo="https://images.pluto.tv/channels/6a31609d2e5d44e1a2f5fede/colorLogoPNG_1784801660029.png" group-title="Star Trek",Pluto TV Star Trek: Bösewichte & Gegenspieler
+plugin://plugin.video.plutotv/play/pvr/6a31609d2e5d44e1a2f5fede
+#EXTINF:-1 tvg-id="6a3160ad26ad9d31cacf7446" tvg-name="Pluto TV Star Trek: Heghlu'meH QaQ jajvam" tvg-logo="https://images.pluto.tv/channels/6a3160ad26ad9d31cacf7446/colorLogoPNG_1784806587176.png" group-title="Star Trek",Pluto TV Star Trek: Heghlu'meH QaQ jajvam
+plugin://plugin.video.plutotv/play/pvr/6a3160ad26ad9d31cacf7446
+#EXTINF:-1 tvg-id="6a6a02dc05520fcba93df783" tvg-name="NFL Channel" tvg-logo="https://images.pluto.tv/channels/6a6a02dc05520fcba93df783/colorLogoPNG_1785333546555.png" group-title="Live Sports",NFL Channel
+plugin://plugin.video.plutotv/play/pvr/6a6a02dc05520fcba93df783
+#EXTINF:-1 tvg-id="6a85bbcaad0d80253cb2a0df" tvg-name="MODUS Super Series - Deutsche Woche" tvg-logo="https://images.pluto.tv/channels/6a85bbcaad0d80253cb2a0df/colorLogoPNG_1787844382630.png" group-title="Live Sports",MODUS Super Series - Deutsche Woche
+plugin://plugin.video.plutotv/play/pvr/6a85bbcaad0d80253cb2a0df

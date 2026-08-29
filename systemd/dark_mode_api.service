@@ -1,0 +1,16 @@
+[Unit]
+Description=Hudiy Dark Mode CAN Bus Service
+Requires=can_handler.service
+After=can_handler.service
+
+[Service]
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/hudiy_client
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /home/pi/hudiy_client/dark_mode_api.py
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

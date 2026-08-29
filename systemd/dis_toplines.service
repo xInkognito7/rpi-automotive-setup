@@ -1,0 +1,18 @@
+[Unit]
+Description=Audi FIS Toplines Shadowing Service
+Requires=hudiy_data_api.service
+After=hudiy_data_api.service
+BindsTo=hudiy_data_api.service
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/dis_client/dis_toplines.py
+WorkingDirectory=/home/pi/dis_client
+Environment=PYTHONUNBUFFERED=1
+Restart=always
+RestartSec=5s
+KillSignal=SIGINT
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target
