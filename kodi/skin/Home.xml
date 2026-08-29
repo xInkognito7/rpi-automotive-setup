@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<views>9000</views>
+	<controls>
+		<!-- 1. Tiefschwarzer Hintergrund -->
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<texture colordiffuse="ff05070a">colors/black.png</texture>
+		</control>
+
+		<!-- 2. Großer OEM Audi Top-Header (Höher gesetzt, fett & präsent) -->
+		<control type="group">
+			<top>15</top>
+			<left>40</left>
+			<right>40</right>
+			<!-- Trennlinie Links -->
+			<control type="image">
+				<left>10</left>
+				<top>38</top>
+				<width>300</width>
+				<height>4</height>
+				<texture colordiffuse="88ffffff">colors/white.png</texture>
+			</control>
+			<!-- Titel: Audi Multimedia Interface -->
+			<control type="label">
+				<left>0</left>
+				<right>0</right>
+				<top>0</top>
+				<height>75</height>
+				<align>center</align>
+				<font>font45</font>
+				<textcolor>ffd90429</textcolor>
+				<label>[B]Audi Multimedia Interface[/B]</label>
+			</control>
+			<!-- Trennlinie Rechts -->
+			<control type="image">
+				<right>10</right>
+				<top>38</top>
+				<width>300</width>
+				<height>4</height>
+				<texture colordiffuse="88ffffff">colors/white.png</texture>
+			</control>
+		</control>
+
+		<!-- 3. MMI Kachel-Karussell (Horizontales Durchscrollen mit fester Mitte) -->
+		<control type="fixedlist" id="9000">
+			<left>0</left>
+			<top>140</top>
+			<width>100%</width>
+			<height>520</height>
+			<orientation>horizontal</orientation>
+			<!-- Drehrad-Navigation -->
+			<onup>Control.Move(9000,-1)</onup>
+			<ondown>Control.Move(9000,1)</ondown>
+			<onleft>Control.Move(9000,-1)</onleft>
+			<onright>Control.Move(9000,1)</onright>
+			<!-- Feste mittlere Fokus-Position -->
+			<focusposition>1</focusposition>
+			<movement>0</movement>
+			<scrolltime tween="cubic" ease="out">180</scrolltime>
+
+			<!-- Inaktive Kacheln -->
+			<itemlayout width="600" height="500">
+				<control type="group">
+					<left>60</left>
+					<top>30</top>
+					<control type="image">
+						<width>480</width>
+						<height>360</height>
+						<texture colordiffuse="ff0f131a">colors/black.png</texture>
+					</control>
+					<control type="image">
+						<width>480</width>
+						<height>360</height>
+						<texture border="4" colordiffuse="338d99ae">colors/white.png</texture>
+					</control>
+					<control type="image">
+						<left>165</left>
+						<top>55</top>
+						<width>150</width>
+						<height>150</height>
+						<aspectratio>keep</aspectratio>
+						<texture colordiffuse="ff8d99ae">$INFO[ListItem.Icon]</texture>
+					</control>
+					<control type="label">
+						<left>20</left>
+						<top>230</top>
+						<width>440</width>
+						<height>50</height>
+						<align>center</align>
+						<font>font30_title</font>
+						<textcolor>ff8d99ae</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</control>
+			</itemlayout>
+
+			<!-- Aktive fokussierte Kachel (Mitte) -->
+			<focusedlayout width="720" height="500">
+				<control type="group">
+					<left>20</left>
+					<top>10</top>
+					<control type="image">
+						<width>680</width>
+						<height>430</height>
+						<texture colordiffuse="ff141923">colors/black.png</texture>
+					</control>
+					<control type="image">
+						<width>680</width>
+						<height>430</height>
+						<texture border="10" colordiffuse="ffff6b00">colors/white.png</texture>
+					</control>
+					<control type="image">
+						<left>230</left>
+						<top>50</top>
+						<width>220</width>
+						<height>220</height>
+						<aspectratio>keep</aspectratio>
+						<texture colordiffuse="ffffffff">$INFO[ListItem.Icon]</texture>
+					</control>
+					<control type="label">
+						<left>20</left>
+						<top>285</top>
+						<width>640</width>
+						<height>65</height>
+						<align>center</align>
+						<font>font45</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</control>
+			</focusedlayout>
+
+			<!-- Menüeinträge -->
+			<content>
+				<!-- 1. LIVE TV -->
+				<item>
+					<label>Fernsehen</label>
+					<icon>DefaultVideo.png</icon>
+					<onclick>ActivateWindow(TVChannels)</onclick>
+				</item>
+				<!-- 2. YOUTUBE -->
+				<item>
+					<label>YouTube</label>
+					<icon>DefaultAddonVideo.png</icon>
+					<onclick>ActivateWindow(Videos,plugin://plugin.video.youtube/,return)</onclick>
+				</item>
+				<!-- 3. TWITCH -->
+				<item>
+					<label>Twitch</label>
+					<icon>DefaultAddonVideo.png</icon>
+					<onclick>ActivateWindow(Videos,plugin://plugin.video.twitch/,return)</onclick>
+				</item>
+				<!-- 4. RADIO.DE -->
+				<item>
+					<label>Radio</label>
+					<icon>DefaultAudio.png</icon>
+					<onclick>ActivateWindow(Music,plugin://plugin.audio.radiode/,return)</onclick>
+				</item>
+				<!-- 5. WETTER -->
+				<item>
+					<label>Wetter</label>
+					<icon>DefaultAddonWeather.png</icon>
+					<onclick>ActivateWindow(Weather)</onclick>
+				</item>
+			</content>
+		</control>
+
+<!-- 4. MAXIMALES NOW-PLAYING WIDGET -->
+		<control type="group">
+			<left>40</left>
+			<right>40</right>
+			<bottom>145</bottom>
+			<height>210</height>
+			<visible>Player.HasMedia</visible>
+
+			<!-- Hintergrundbox -->
+			<control type="image">
+				<width>100%</width>
+				<height>210</height>
+				<texture colordiffuse="f80e121a">colors/black.png</texture>
+			</control>
+			<control type="image">
+				<width>100%</width>
+				<height>210</height>
+				<texture border="5" colordiffuse="778d99ae">colors/white.png</texture>
+			</control>
+
+			<!-- Senderlogo / Album Art -->
+			<control type="image">
+				<left>10</left>
+				<top>10</top>
+				<width>190</width>
+				<height>190</height>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[Player.Art(thumb)]</texture>
+			</control>
+
+			<!-- Zeile 1: Sendername / Interpret (Weiß) - Primär über Artist -->
+			<control type="label">
+				<left>225</left>
+				<top>30</top>
+				<right>30</right>
+				<height>65</height>
+				<font>font45</font>
+				<textcolor>ffffffff</textcolor>
+				<visible>!String.IsEmpty(MusicPlayer.Artist)</visible>
+				<label>[B]$INFO[MusicPlayer.Artist][/B]</label>
+			</control>
+			<!-- Zeile 1 Fallback: Falls Artist leer ist, nimm ChannelName -->
+			<control type="label">
+				<left>225</left>
+				<top>30</top>
+				<right>30</right>
+				<height>65</height>
+				<font>font45</font>
+				<textcolor>ffffffff</textcolor>
+				<visible>String.IsEmpty(MusicPlayer.Artist)</visible>
+				<label>[B]$INFO[MusicPlayer.ChannelName][/B]</label>
+			</control>
+
+			<!-- Zeile 2: Songtitel / Track (Audi-Orange) - Primär über MusicPlayer.Title -->
+			<control type="label">
+				<left>225</left>
+				<top>105</top>
+				<right>30</right>
+				<height>60</height>
+				<font>font36_title</font>
+				<textcolor>ffff6b00</textcolor>
+				<visible>!String.IsEmpty(MusicPlayer.Title)</visible>
+				<label>$INFO[MusicPlayer.Title]</label>
+			</control>
+			<!-- Zeile 2 Fallback: Falls MusicPlayer.Title leer ist, nimm Player.Title -->
+			<control type="label">
+				<left>225</left>
+				<top>105</top>
+				<right>30</right>
+				<height>60</height>
+				<font>font36_title</font>
+				<textcolor>ffff6b00</textcolor>
+				<visible>String.IsEmpty(MusicPlayer.Title)</visible>
+				<label>$INFO[Player.Title]</label>
+			</control>
+		</control>
+
+		<!-- 5. OEM Audi Bottom-Bar (Vergrößert, 6px Trennlinie & exakte Grundlinie) -->
+		<control type="group">
+			<bottom>15</bottom>
+			<left>40</left>
+			<right>40</right>
+			<height>120</height>
+
+			<!-- Weiße Trennlinie -->
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>100%</width>
+				<height>6</height>
+				<texture colordiffuse="99ffffff">colors/white.png</texture>
+			</control>
+
+			<!-- Unten Links: Einstellungen -->
+			<control type="label">
+				<left>20</left>
+				<top>30</top>
+				<width>420</width>
+				<height>65</height>
+				<font>font45</font>
+				<textcolor>fff0f2f5</textcolor>
+				<label>[B]Einstellungen[/B]</label>
+			</control>
+
+			<!-- Unten Mitte: Wetter & Digitaluhr (Exakt zentriert & auf gleicher Baseline) -->
+			<control type="group">
+				<left>0</left>
+				<right>0</right>
+				<top>25</top>
+				<height>75</height>
+
+				<control type="group">
+					<left>700</left>
+					<top>0</top>
+					<width>520</width>
+					<height>75</height>
+
+					<!-- Wetter-Icon -->
+					<control type="image">
+						<left>0</left>
+						<top>8</top>
+						<width>65</width>
+						<height>65</height>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[Weather.ConditionsIcon]</texture>
+					</control>
+
+					<!-- Temperatur -->
+					<control type="label">
+						<left>80</left>
+						<top>0</top>
+						<width>170</width>
+						<height>75</height>
+						<font>font45</font>
+						<textcolor>fff0f2f5</textcolor>
+						<label>[B]$INFO[Weather.Temperature][/B]</label>
+					</control>
+
+					<!-- Digitaluhr -->
+					<control type="label">
+						<left>265</left>
+						<top>0</top>
+						<width>255</width>
+						<height>75</height>
+						<font>font45</font>
+						<textcolor>fff0f2f5</textcolor>
+						<label>[B]$INFO[System.Time(hh:mm)][/B]</label>
+					</control>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

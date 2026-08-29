@@ -45,7 +45,8 @@ Zentrales Konfigurations- und Quellcode-Repository für das Raspberry Pi Infotai
 
 ---
 
-### 6. `kodi/` – Mediacenter Konfiguration
+### 6. `kodi/` – Mediacenter Konfiguration & UI Skin
 * **`*.xml`**: Benutzereinstellungen (`advancedsettings.xml`, `guisettings.xml`, `favourites.xml`).
+* **`skin/Home.xml`**: Angepasste Startbildschirm- und Menü-Struktur für das Hauptmenü in Kodi.
 * **`keymaps/`**: Tastenbelegungen für die OEM-Steuerung.
 * **`playlists/`**: Angepasste Wiedergabelisten und Stream-Scanner.
